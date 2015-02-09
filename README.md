@@ -68,6 +68,7 @@ Other projects implementing algorithms in JavaScript :
 
   - https://github.com/felipernb/algorithms.js
   - https://github.com/mgechev/javascript-algorithms
+  - https://github.com/nzakas/computer-science-in-javascript
 
 Other projects implementing algorithms in other languages :
 
