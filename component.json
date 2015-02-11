@@ -1,0 +1,11 @@
+{
+	"main": "js/dist/algo.js",
+	"name": "aureooms-js-algo",
+	"scripts": [
+		"js/dist/algo.js"
+	],
+	"description": "playground for algorithmic code bricks in JavaScript",
+	"license": "AGPL-3.0",
+	"version": "3.0.0",
+	"repo": "aureooms/js-algo"
+}
