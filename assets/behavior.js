@@ -54,385 +54,47 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
     }, {
       "type": "folder",
       "data": {
-        "path": "adt",
-        "title": "adt"
+        "path": "4sum",
+        "title": "4sum"
       },
       "depth": 1,
       "children": [
         {
-          "type": "folder",
+          "type": "file",
           "data": {
-            "path": "adt/BinomialHeap",
-            "title": "BinomialHeap"
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/4sum/sortxy_n3.js",
+            "projectPath": "js/src/4sum/sortxy_n3.js",
+            "targetPath": "4sum/sortxy_n3",
+            "pageTitle": "4sum/sortxy_n3",
+            "title": "sortxy_n3"
           },
           "depth": 2,
-          "children": [
+          "outline": [
             {
-              "type": "file",
+              "type": "heading",
               "data": {
-                "language": {
-                  "nameMatchers": [".js"],
-                  "pygmentsLexer": "javascript",
-                  "multiLineComment": ["/*", "*", "*/"],
-                  "singleLineComment": ["//"],
-                  "ignorePrefix": "}",
-                  "foldPrefix": "^",
-                  "name": "JavaScript"
-                },
-                "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/adt/BinomialHeap/BinomialHeap.js",
-                "projectPath": "js/src/adt/BinomialHeap/BinomialHeap.js",
-                "targetPath": "adt/BinomialHeap/BinomialHeap",
-                "pageTitle": "adt/BinomialHeap/BinomialHeap",
-                "title": "BinomialHeap"
+                "level": 2,
+                "title": "|              X              |",
+                "slug": "-x-"
               },
-              "depth": 3,
-              "outline": [
-                {
-                  "type": "heading",
-                  "data": {
-                    "level": 2,
-                    "title": "   null ? | other[i] | list[i] | carry",
-                    "slug": "-null---otheri--listi--carry"
-                  },
-                  "depth": 2
-                }, {
-                  "type": "heading",
-                  "data": {
-                    "level": 1,
-                    "title": "those 2 cases (carry and other[i] are null).",
-                    "slug": "those-2-cases-carry-and-otheri-are-null"
-                  },
-                  "depth": 1
-                }
-              ]
+              "depth": 2
             }, {
-              "type": "file",
+              "type": "heading",
               "data": {
-                "language": {
-                  "nameMatchers": [".js"],
-                  "pygmentsLexer": "javascript",
-                  "multiLineComment": ["/*", "*", "*/"],
-                  "singleLineComment": ["//"],
-                  "ignorePrefix": "}",
-                  "foldPrefix": "^",
-                  "name": "JavaScript"
-                },
-                "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/adt/BinomialHeap/BinomialTree.js",
-                "projectPath": "js/src/adt/BinomialHeap/BinomialTree.js",
-                "targetPath": "adt/BinomialHeap/BinomialTree",
-                "pageTitle": "adt/BinomialHeap/BinomialTree",
-                "title": "BinomialTree"
+                "level": 2,
+                "title": "|              Y              |",
+                "slug": "-y-"
               },
-              "depth": 3,
-              "outline": []
-            }, {
-              "type": "file",
-              "data": {
-                "language": {
-                  "nameMatchers": [".js"],
-                  "pygmentsLexer": "javascript",
-                  "multiLineComment": ["/*", "*", "*/"],
-                  "singleLineComment": ["//"],
-                  "ignorePrefix": "}",
-                  "foldPrefix": "^",
-                  "name": "JavaScript"
-                },
-                "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/adt/BinomialHeap/BinomialTreeWithParent.js",
-                "projectPath": "js/src/adt/BinomialHeap/BinomialTreeWithParent.js",
-                "targetPath": "adt/BinomialHeap/BinomialTreeWithParent",
-                "pageTitle": "adt/BinomialHeap/BinomialTreeWithParent",
-                "title": "BinomialTreeWithParent"
-              },
-              "depth": 3,
-              "outline": []
-            }, {
-              "type": "file",
-              "data": {
-                "language": {
-                  "nameMatchers": [".js"],
-                  "pygmentsLexer": "javascript",
-                  "multiLineComment": ["/*", "*", "*/"],
-                  "singleLineComment": ["//"],
-                  "ignorePrefix": "}",
-                  "foldPrefix": "^",
-                  "name": "JavaScript"
-                },
-                "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/adt/BinomialHeap/LazyBinomialHeap.js",
-                "projectPath": "js/src/adt/BinomialHeap/LazyBinomialHeap.js",
-                "targetPath": "adt/BinomialHeap/LazyBinomialHeap",
-                "pageTitle": "adt/BinomialHeap/LazyBinomialHeap",
-                "title": "LazyBinomialHeap"
-              },
-              "depth": 3,
-              "outline": [
-                {
-                  "type": "heading",
-                  "data": {
-                    "level": 2,
-                    "title": "   null ? | other[i] | list[i] | carry",
-                    "slug": "-null---otheri--listi--carry"
-                  },
-                  "depth": 2
-                }, {
-                  "type": "heading",
-                  "data": {
-                    "level": 1,
-                    "title": "those 2 cases (carry and other[i] are null).",
-                    "slug": "those-2-cases-carry-and-otheri-are-null"
-                  },
-                  "depth": 1
-                }
-              ]
-            }
-          ]
-        }, {
-          "type": "folder",
-          "data": {
-            "path": "adt/DAryHeap",
-            "title": "DAryHeap"
-          },
-          "depth": 2,
-          "children": [
-            {
-              "type": "file",
-              "data": {
-                "language": {
-                  "nameMatchers": [".js"],
-                  "pygmentsLexer": "javascript",
-                  "multiLineComment": ["/*", "*", "*/"],
-                  "singleLineComment": ["//"],
-                  "ignorePrefix": "}",
-                  "foldPrefix": "^",
-                  "name": "JavaScript"
-                },
-                "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/adt/DAryHeap/000-namespace.js",
-                "projectPath": "js/src/adt/DAryHeap/000-namespace.js",
-                "targetPath": "adt/DAryHeap/000-namespace",
-                "pageTitle": "adt/DAryHeap/000-namespace",
-                "title": "000-namespace"
-              },
-              "depth": 3,
-              "outline": []
-            }, {
-              "type": "folder",
-              "data": {
-                "path": "adt/DAryHeap/001-core",
-                "title": "001-core"
-              },
-              "depth": 3,
-              "children": [
-                {
-                  "type": "file",
-                  "data": {
-                    "language": {
-                      "nameMatchers": [".js"],
-                      "pygmentsLexer": "javascript",
-                      "multiLineComment": ["/*", "*", "*/"],
-                      "singleLineComment": ["//"],
-                      "ignorePrefix": "}",
-                      "foldPrefix": "^",
-                      "name": "JavaScript"
-                    },
-                    "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/adt/DAryHeap/001-core/delete.js",
-                    "projectPath": "js/src/adt/DAryHeap/001-core/delete.js",
-                    "targetPath": "adt/DAryHeap/001-core/delete",
-                    "pageTitle": "adt/DAryHeap/001-core/delete",
-                    "title": "delete"
-                  },
-                  "depth": 4,
-                  "outline": []
-                }, {
-                  "type": "file",
-                  "data": {
-                    "language": {
-                      "nameMatchers": [".js"],
-                      "pygmentsLexer": "javascript",
-                      "multiLineComment": ["/*", "*", "*/"],
-                      "singleLineComment": ["//"],
-                      "ignorePrefix": "}",
-                      "foldPrefix": "^",
-                      "name": "JavaScript"
-                    },
-                    "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/adt/DAryHeap/001-core/merge.js",
-                    "projectPath": "js/src/adt/DAryHeap/001-core/merge.js",
-                    "targetPath": "adt/DAryHeap/001-core/merge",
-                    "pageTitle": "adt/DAryHeap/001-core/merge",
-                    "title": "merge"
-                  },
-                  "depth": 4,
-                  "outline": []
-                }, {
-                  "type": "file",
-                  "data": {
-                    "language": {
-                      "nameMatchers": [".js"],
-                      "pygmentsLexer": "javascript",
-                      "multiLineComment": ["/*", "*", "*/"],
-                      "singleLineComment": ["//"],
-                      "ignorePrefix": "}",
-                      "foldPrefix": "^",
-                      "name": "JavaScript"
-                    },
-                    "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/adt/DAryHeap/001-core/nextchild.js",
-                    "projectPath": "js/src/adt/DAryHeap/001-core/nextchild.js",
-                    "targetPath": "adt/DAryHeap/001-core/nextchild",
-                    "pageTitle": "adt/DAryHeap/001-core/nextchild",
-                    "title": "nextchild"
-                  },
-                  "depth": 4,
-                  "outline": []
-                }, {
-                  "type": "file",
-                  "data": {
-                    "language": {
-                      "nameMatchers": [".js"],
-                      "pygmentsLexer": "javascript",
-                      "multiLineComment": ["/*", "*", "*/"],
-                      "singleLineComment": ["//"],
-                      "ignorePrefix": "}",
-                      "foldPrefix": "^",
-                      "name": "JavaScript"
-                    },
-                    "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/adt/DAryHeap/001-core/percolatedown.js",
-                    "projectPath": "js/src/adt/DAryHeap/001-core/percolatedown.js",
-                    "targetPath": "adt/DAryHeap/001-core/percolatedown",
-                    "pageTitle": "adt/DAryHeap/001-core/percolatedown",
-                    "title": "percolatedown"
-                  },
-                  "depth": 4,
-                  "outline": []
-                }, {
-                  "type": "file",
-                  "data": {
-                    "language": {
-                      "nameMatchers": [".js"],
-                      "pygmentsLexer": "javascript",
-                      "multiLineComment": ["/*", "*", "*/"],
-                      "singleLineComment": ["//"],
-                      "ignorePrefix": "}",
-                      "foldPrefix": "^",
-                      "name": "JavaScript"
-                    },
-                    "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/adt/DAryHeap/001-core/percolateup.js",
-                    "projectPath": "js/src/adt/DAryHeap/001-core/percolateup.js",
-                    "targetPath": "adt/DAryHeap/001-core/percolateup",
-                    "pageTitle": "adt/DAryHeap/001-core/percolateup",
-                    "title": "percolateup"
-                  },
-                  "depth": 4,
-                  "outline": []
-                }, {
-                  "type": "file",
-                  "data": {
-                    "language": {
-                      "nameMatchers": [".js"],
-                      "pygmentsLexer": "javascript",
-                      "multiLineComment": ["/*", "*", "*/"],
-                      "singleLineComment": ["//"],
-                      "ignorePrefix": "}",
-                      "foldPrefix": "^",
-                      "name": "JavaScript"
-                    },
-                    "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/adt/DAryHeap/001-core/pop.js",
-                    "projectPath": "js/src/adt/DAryHeap/001-core/pop.js",
-                    "targetPath": "adt/DAryHeap/001-core/pop",
-                    "pageTitle": "adt/DAryHeap/001-core/pop",
-                    "title": "pop"
-                  },
-                  "depth": 4,
-                  "outline": []
-                }, {
-                  "type": "file",
-                  "data": {
-                    "language": {
-                      "nameMatchers": [".js"],
-                      "pygmentsLexer": "javascript",
-                      "multiLineComment": ["/*", "*", "*/"],
-                      "singleLineComment": ["//"],
-                      "ignorePrefix": "}",
-                      "foldPrefix": "^",
-                      "name": "JavaScript"
-                    },
-                    "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/adt/DAryHeap/001-core/push.js",
-                    "projectPath": "js/src/adt/DAryHeap/001-core/push.js",
-                    "targetPath": "adt/DAryHeap/001-core/push",
-                    "pageTitle": "adt/DAryHeap/001-core/push",
-                    "title": "push"
-                  },
-                  "depth": 4,
-                  "outline": []
-                }, {
-                  "type": "file",
-                  "data": {
-                    "language": {
-                      "nameMatchers": [".js"],
-                      "pygmentsLexer": "javascript",
-                      "multiLineComment": ["/*", "*", "*/"],
-                      "singleLineComment": ["//"],
-                      "ignorePrefix": "}",
-                      "foldPrefix": "^",
-                      "name": "JavaScript"
-                    },
-                    "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/adt/DAryHeap/001-core/sniffup.js",
-                    "projectPath": "js/src/adt/DAryHeap/001-core/sniffup.js",
-                    "targetPath": "adt/DAryHeap/001-core/sniffup",
-                    "pageTitle": "adt/DAryHeap/001-core/sniffup",
-                    "title": "sniffup"
-                  },
-                  "depth": 4,
-                  "outline": []
-                }
-              ]
-            }, {
-              "type": "folder",
-              "data": {
-                "path": "adt/DAryHeap/002-adt",
-                "title": "002-adt"
-              },
-              "depth": 3,
-              "children": [
-                {
-                  "type": "file",
-                  "data": {
-                    "language": {
-                      "nameMatchers": [".js"],
-                      "pygmentsLexer": "javascript",
-                      "multiLineComment": ["/*", "*", "*/"],
-                      "singleLineComment": ["//"],
-                      "ignorePrefix": "}",
-                      "foldPrefix": "^",
-                      "name": "JavaScript"
-                    },
-                    "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/adt/DAryHeap/002-adt/DAryHeap.js",
-                    "projectPath": "js/src/adt/DAryHeap/002-adt/DAryHeap.js",
-                    "targetPath": "adt/DAryHeap/002-adt/DAryHeap",
-                    "pageTitle": "adt/DAryHeap/002-adt/DAryHeap",
-                    "title": "DAryHeap"
-                  },
-                  "depth": 4,
-                  "outline": []
-                }, {
-                  "type": "file",
-                  "data": {
-                    "language": {
-                      "nameMatchers": [".js"],
-                      "pygmentsLexer": "javascript",
-                      "multiLineComment": ["/*", "*", "*/"],
-                      "singleLineComment": ["//"],
-                      "ignorePrefix": "}",
-                      "foldPrefix": "^",
-                      "name": "JavaScript"
-                    },
-                    "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/adt/DAryHeap/002-adt/DAryHeapWithoutReferences.js",
-                    "projectPath": "js/src/adt/DAryHeap/002-adt/DAryHeapWithoutReferences.js",
-                    "targetPath": "adt/DAryHeap/002-adt/DAryHeapWithoutReferences",
-                    "pageTitle": "adt/DAryHeap/002-adt/DAryHeapWithoutReferences",
-                    "title": "DAryHeapWithoutReferences"
-                  },
-                  "depth": 4,
-                  "outline": []
-                }
-              ]
+              "depth": 2
             }
           ]
         }, {
@@ -447,14 +109,32 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/adt/DoublyLinkedList.js",
-            "projectPath": "js/src/adt/DoublyLinkedList.js",
-            "targetPath": "adt/DoublyLinkedList",
-            "pageTitle": "adt/DoublyLinkedList",
-            "title": "DoublyLinkedList"
+            "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/4sum/sortxy_n4.js",
+            "projectPath": "js/src/4sum/sortxy_n4.js",
+            "targetPath": "4sum/sortxy_n4",
+            "pageTitle": "4sum/sortxy_n4",
+            "title": "sortxy_n4"
           },
           "depth": 2,
-          "outline": []
+          "outline": [
+            {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "|              X              |",
+                "slug": "-x-"
+              },
+              "depth": 2
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "|              Y              |",
+                "slug": "-y-"
+              },
+              "depth": 2
+            }
+          ]
         }
       ]
     }, {
@@ -763,6 +443,66 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "outline": []
         }
       ]
+    }, {
+      "type": "folder",
+      "data": {
+        "path": "kldt",
+        "title": "kldt"
+      },
+      "depth": 1,
+      "children": [
+        {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/kldt/evenkldtto2sum.js",
+            "projectPath": "js/src/kldt/evenkldtto2sum.js",
+            "targetPath": "kldt/evenkldtto2sum",
+            "pageTitle": "kldt/evenkldtto2sum",
+            "title": "evenkldtto2sum"
+          },
+          "depth": 2,
+          "outline": [
+            {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "A &lt;- |   t   |   t   |   t   |   t   |   t   |   t   |   t   |   t   |   t   |",
+                "slug": "a-lt--t--t--t--t--t--t--t--t--t-"
+              },
+              "depth": 2
+            }
+          ]
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/kldt/oddkldtto3sum.js",
+            "projectPath": "js/src/kldt/oddkldtto3sum.js",
+            "targetPath": "kldt/oddkldtto3sum",
+            "pageTitle": "kldt/oddkldtto3sum",
+            "title": "oddkldtto3sum"
+          },
+          "depth": 2,
+          "outline": []
+        }
+      ]
     }
   ];
 
@@ -987,7 +727,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
       if (metaInfo.documentPath === 'index') {
         sourceURL = metaInfo.githubURL;
       } else {
-        sourceURL = "" + metaInfo.githubURL + "/blob/master/" + metaInfo.projectPath;
+        sourceURL = metaInfo.githubURL + "/blob/master/" + metaInfo.projectPath;
       }
       nav$.find('.tools').prepend("<li class=\"github\">\n  <a href=\"" + sourceURL + "\" title=\"View source on GitHub\">\n    View source on GitHub\n  </a>\n</li>");
     }
