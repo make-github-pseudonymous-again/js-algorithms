@@ -69,6 +69,7 @@ Other projects implementing algorithms in JavaScript :
   - https://github.com/felipernb/algorithms.js
   - https://github.com/mgechev/javascript-algorithms
   - https://github.com/nzakas/computer-science-in-javascript
+  - http://www.nayuki.io
 
 Other projects implementing algorithms in other languages :
 
@@ -77,6 +78,7 @@ Other projects implementing algorithms in other languages :
   - https://github.com/kanwei/algorithms (Ruby)
   - https://github.com/phishman3579/java-algorithms-implementation (Java)
   - https://github.com/patmorin/ods (C++, Java, Python)
+  - http://www.nayuki.io (C, C++, Java, C#, Python, Haskell, MATLAB and others)
   - http://rosettacode.org (All kinds of languages)
 
 Other reference:
