@@ -15,6 +15,7 @@ of [js-data-structures](https://github.com/aureooms/js-data-structures).
 [![Code Climate](http://img.shields.io/codeclimate/github/aureooms/js-algo.svg?style=flat)](https://codeclimate.com/github/aureooms/js-algo)
 [![NPM downloads per month](http://img.shields.io/npm/dm/aureooms-js-algo.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-algo)
 [![GitHub issues](http://img.shields.io/github/issues/aureooms/js-algo.svg?style=flat)](https://github.com/aureooms/js-algo/issues)
+[![Inline docs](http://inch-ci.org/github/aureooms/js-algo.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-algo)
 
 
 This project is just a playground for any algorithm that doesn't fit in any
