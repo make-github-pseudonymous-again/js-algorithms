@@ -1,0 +1,58 @@
+<!DOCTYPE html><html lang="en"><head><title>minima/clarkson</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content="../"><meta name="groc-document-path" content="minima/clarkson"><meta name="groc-project-path" content="js/src/minima/clarkson.js"><meta name="groc-github-url" content="https://github.com/aureooms/js-algo"><link rel="stylesheet" type="text/css" media="all" href="../assets/style.css"><script type="text/javascript" src="../assets/behavior.js"></script><body><div id="meta"><div class="file-path"><a href="https://github.com/aureooms/js-algo/blob/master/js/src/minima/clarkson.js">js/src/minima/clarkson.js</a></div></div><div id="document"><div class="segment"></div><div class="segment"><div class="comments "><div class="wrapper"><p>Output sensitive inplace algorithm to find the minima set of a set S of
+elements according to some partial order.</p>
+<p>Uses at most 2nA comparisons where A is the cardinality of the minima set.</p>
+<p>For (1), at most nA comparisons are used since we compare each element of S
+with each elements of the minima set which is of cardinality at most A
+during the execution of the algorithm.</p>
+<p>For (2), for each executed loop we
+obtain a new minimum and increase the size of the constructed minima set by
+1, hence there are at most A loops execution, each of which loops over at
+most n elements. (2) uses thus at most nA comparisons.</p>
+<p>The running time is dominated by the comparison time and thus the complexity
+of this algorihtm is O(nA).</p>
+<h2 id="description-and-context-in">Description and context in</h2>
+<p>More Output-Sensitive Geometric Algorithms.
+-------------------- Kenneth L. Clarkson -</p></div></div><div class="code"><div class="wrapper"><span class="hljs-keyword">var</span> clarkson = <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">( prec , a , i , j )</span> </span>{</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>This algorithms reorganizes the input array <code>a</code> as follows</p>
+<ul>
+<li>elements that are minima are put at the front of <code>a</code></li>
+<li>other elements are put at the back of <code>a</code></li>
+</ul>
+<p>During the algorithm, <code>a</code> looks like this</p>
+<hr>
+<h2 id="-minima-set--candidate-elements--discarded-elements-">| minima set | candidate elements | discarded elements |</h2>
+<p> i           min                dis                     j</p></div></div><div class="code"><div class="wrapper">	<span class="hljs-keyword">var</span> min , dis , k , inc , tmp ;
+
+	min = i ;
+	dis = j - <span class="hljs-number">1</span> ;</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>While there are candidate elements left.</p></div></div><div class="code"><div class="wrapper">	<span class="hljs-keyword">while</span> ( min &lt;= dis ) {</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>(1) Determine if the right-most candidate should be discarded because it
+is dominated by one of the minima elements of the minima set in
+construction.</p></div></div><div class="code"><div class="wrapper">		<span class="hljs-keyword">for</span> ( k = i ; k &lt; min &amp;&amp; !prec( a[k] , a[dis] ) ; ++k ) ;</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>If so, discard it.</p></div></div><div class="code"><div class="wrapper">		<span class="hljs-keyword">if</span> ( k &lt; min ) --dis ;</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>(2) Otherwise, scan the candidates for a minimum. If at this point the
+candidate set is not empty, at least one of its elements must be a
+minimum. We scan the candidate list to find such a minimum.</p></div></div><div class="code"><div class="wrapper">		<span class="hljs-keyword">else</span> {</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>Store the current minimum as the left-most candidate.</p></div></div><div class="code"><div class="wrapper">			tmp    = a[dis] ;
+			a[dis] = a[min] ;
+			a[min] = tmp ;</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>For each other candidate, right-to-left.</p></div></div><div class="code"><div class="wrapper">			<span class="hljs-keyword">for</span> ( inc = min + <span class="hljs-number">1</span> ; inc &lt;= dis ; ) {</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>If the current minimum precedes the right-most candidate,
+discard the right-most candidate.</p></div></div><div class="code"><div class="wrapper">				<span class="hljs-keyword">if</span> ( prec( a[min] , a[dis] ) ) --dis ;</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>Else, if the right-most candidate precedes the current
+minimum, we can discard the current minimum and the
+right-most candidate becomes the current minimum.</p></div></div><div class="code"><div class="wrapper">				<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( prec( a[dis] , a[min] ) ) {
+					tmp    = a[dis] ;
+					a[dis] = a[min] ;
+					a[min] = tmp ;
+					--dis ;
+				}</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>Otherwise, we save the candidate for the next round.</p></div></div><div class="code"><div class="wrapper">				<span class="hljs-keyword">else</span> {
+					tmp    = a[dis] ;
+					a[dis] = a[inc] ;
+					a[inc] = tmp ;
+					++inc ;
+				}
+
+			}</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>The above loop selects a new minimum from the set of candidates
+and places it at position <code>min</code>. We now increase the <code>min</code>
+counter to move this minimum from the candidate list to the
+minima set.</p></div></div><div class="code"><div class="wrapper">			++min ;
+
+		}
+
+	}</div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>The algorithm returns the outer right bound of the minima set a[i:min].</p></div></div><div class="code"><div class="wrapper">	<span class="hljs-keyword">return</span> min ;
+
+} ;
+
+exports.clarkson = clarkson ;</div></div></div></div></body></html>

@@ -503,6 +503,54 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "outline": []
         }
       ]
+    }, {
+      "type": "folder",
+      "data": {
+        "path": "minima",
+        "title": "minima"
+      },
+      "depth": 1,
+      "children": [
+        {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/minima/clarkson.js",
+            "projectPath": "js/src/minima/clarkson.js",
+            "targetPath": "minima/clarkson",
+            "pageTitle": "minima/clarkson",
+            "title": "clarkson"
+          },
+          "depth": 2,
+          "outline": [
+            {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "Description and context in",
+                "slug": "description-and-context-in"
+              },
+              "depth": 2
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "| minima set | candidate elements | discarded elements |",
+                "slug": "-minima-set--candidate-elements--discarded-elements-"
+              },
+              "depth": 2
+            }
+          ]
+        }
+      ]
     }
   ];
 
