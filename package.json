@@ -9,11 +9,12 @@
 		"type": "git"
 	},
 	"keywords": [
-		"js",
-		"javascript",
-		"algorithm",
 		"adt",
+		"algorithm",
 		"complexity",
+		"ender",
+		"javascript",
+		"js",
 		"template"
 	],
 	"scripts": {
@@ -35,5 +36,8 @@
 		"url": "https://github.com/aureooms/js-algo/issues"
 	},
 	"dependencies": {},
-	"license": "AGPL-3.0"
+	"license": "AGPL-3.0",
+	"spm": {
+		"main": "js/dist/algo.js"
+	}
 }
