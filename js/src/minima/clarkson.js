@@ -37,8 +37,10 @@ var clarkson = function ( prec , a , i , j ) {
 	//  ------------------------------------------------------
 	//  i           min                dis                     j
 
-	var min = i ;
-	var dis = j - 1 ;
+	var min , dis , k , inc , tmp ;
+
+	min = i ;
+	dis = j - 1 ;
 
 	// While there are candidate elements left.
 
@@ -48,7 +50,7 @@ var clarkson = function ( prec , a , i , j ) {
 		// is dominated by one of the minima elements of the minima set in
 		// construction.
 
-		for ( k = i ; k < min && !prec( k , dis ) ; ++k ) ;
+		for ( k = i ; k < min && !prec( a[k] , a[dis] ) ; ++k ) ;
 
 		// If so, discard it.
 
@@ -62,7 +64,9 @@ var clarkson = function ( prec , a , i , j ) {
 
 			// Store the current minimum as the left-most candidate.
 
-			swap( dis , min ) ;
+			tmp    = a[dis] ;
+			a[dis] = a[min] ;
+			a[min] = tmp ;
 
 			// For each other candidate, right-to-left.
 
@@ -71,17 +75,27 @@ var clarkson = function ( prec , a , i , j ) {
 				// If the current minimum precedes the right-most candidate,
 				// discard the right-most candidate.
 
-				if ( prec( min , dis ) ) --dis ;
+				if ( prec( a[min] , a[dis] ) ) --dis ;
 
 				// Else, if the right-most candidate precedes the current
 				// minimum, we can discard the current minimum and the
 				// right-most candidate becomes the current minimum.
 
-				else if ( prec( dis , min ) ) swap( dis-- , min ) ;
+				else if ( prec( a[dis] , a[min] ) ) {
+					tmp    = a[dis] ;
+					a[dis] = a[min] ;
+					a[min] = tmp ;
+					--dis ;
+				}
 
 				// Otherwise, we save the candidate for the next round.
 
-				else swap( dis , inc++ ) ;
+				else {
+					tmp    = a[dis] ;
+					a[dis] = a[inc] ;
+					a[inc] = tmp ;
+					++inc ;
+				}
 
 			}
 
