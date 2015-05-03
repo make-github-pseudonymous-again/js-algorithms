@@ -1,6 +1,8 @@
-(function(exports, undefined){
+( function ( ) {
 
-	'use strict';
+'use strict' ;
+
+var definition = function ( exports , undefined ) {
 
 
 /* js/src/3sum */
@@ -886,4 +888,16 @@ var oddkldtto3sum = function ( S , Si , Sj , a , ai , aj , A , Ai , Aj , B , Bi 
 
 exports.oddkldtto3sum = oddkldtto3sum;
 
-})(typeof exports === 'undefined' ? this['algo'] = {} : exports);
+return exports ;
+} ;
+if ( typeof exports === "object" ) {
+	definition( exports ) ;
+}
+else if ( typeof define === "function" && define.amd ) {
+	define( "aureooms-js-algo" , [ ] , function ( ) { return definition( { } ) ; } ) ;
+}
+else if ( typeof window === "object" && typeof window.document === "object" ) {
+	definition( window["algo"] = { } ) ;
+}
+else console.error( "unable to detect type of module to define for aureooms-js-algo") ;
+} )( ) ;

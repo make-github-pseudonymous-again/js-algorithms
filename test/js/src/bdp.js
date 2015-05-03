@@ -1,8 +1,7 @@
 
 
-var all, one, itertools, functools, operator, array, sort, n, random, shuffle, compare;
+var all, one, functools, operator, array, sort, n, random, compare;
 
-itertools = require( "aureooms-js-itertools" );
 functools = require( "aureooms-js-functools" );
 operator = require( "aureooms-js-operator" );
 compare = require( "aureooms-js-compare" );
@@ -10,15 +9,13 @@ random = require( "aureooms-js-random" );
 array = require( "aureooms-js-array" );
 sort = require( "aureooms-js-sort" );
 
-shuffle = random.__shuffle__( random.__sample__( random.randint ) );
-
 one = function ( bdp, __f__, a, i, j, di, dj, expected ) {
 
 	var out, i, outputordering;
 
 	++n;
 
-	shuffle( a, i, j );
+	random.shuffle( a, i, j );
 
 	out = bdp( __f__, a, i, j, di, dj, [] );
 
