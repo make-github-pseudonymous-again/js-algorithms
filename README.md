@@ -1,5 +1,5 @@
 [js-algo](http://aureooms.github.io/js-algo)
-====
+==
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/aureooms/js-algo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Playground for algorithmic code bricks in JavaScript. This is the twin project
@@ -17,6 +17,7 @@ of [js-data-structures](https://github.com/aureooms/js-data-structures).
 [![GitHub issues](http://img.shields.io/github/issues/aureooms/js-algo.svg?style=flat)](https://github.com/aureooms/js-algo/issues)
 [![Inline docs](http://inch-ci.org/github/aureooms/js-algo.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-algo)
 
+## Description
 
 This project is just a playground for any algorithm that doesn't fit in any
 of those project,
@@ -46,6 +47,7 @@ of those project,
   - [aureooms/js-object](https://github.com/aureooms/js-object) : object code bricks for JavaScript
   - [aureooms/js-operator](https://github.com/aureooms/js-operator) : language operators code bricks for JavaScript
   - [aureooms/js-oro](https://github.com/aureooms/js-oro) : operations research and optimization algorithm templates for JavaScript
+  - [aureooms/js-permutation](https://github.com/aureooms/js-permutation) : permutations code bricks for JavaScript
   - [aureooms/js-pfsp-wt](https://github.com/aureooms/js-pfsp-wt) : permutation flow-shop problem (PFSP) with weighted tardiness objective (PFSP-WT) code bricks for JavaScript
   - [aureooms/js-polynomial](https://github.com/aureooms/js-polynomial) : sparse and dense polynomials code bricks for JavaScript
   - [aureooms/js-prime](https://github.com/aureooms/js-prime) : prime numbers code bricks for JavaScript
@@ -58,21 +60,24 @@ of those project,
   - [aureooms/js-uint32](https://github.com/aureooms/js-uint32) : 32-bit unsigned integer arithmetic code bricks for JavaScript
   - [aureooms/js-uint64](https://github.com/aureooms/js-uint64) : 64-bit unsigned integer arithmetic code bricks for JavaScript
 
-
 Those packages aim to provide *code bricks* that are as generic as possible.
 Some examples are a Gauss-Jordan method that can work with any number model, a
 Karatsuba algorithm that can handle any block size, a Graham Scan algorithm
 that works with clockwise or counter clockwise ordering, and a Monotone Chain
 algorithm that can be used as a triangulation algorithm without any change.
 
-Other projects implementing algorithms in JavaScript :
+## Reference
+
+A list of links and projects focusing on algorithm implementation.
+
+### Projects implementing algorithms in JavaScript
 
   - https://github.com/felipernb/algorithms.js
   - https://github.com/mgechev/javascript-algorithms
   - https://github.com/nzakas/computer-science-in-javascript
   - http://www.nayuki.io
 
-Other projects implementing algorithms in other languages :
+### Projects implementing algorithms in other languages
 
   - https://github.com/xtaci/algorithms (C++)
   - https://github.com/nryoung/algorithms (Python)
@@ -82,7 +87,7 @@ Other projects implementing algorithms in other languages :
   - http://www.nayuki.io (C, C++, Java, C#, Python, Haskell, MATLAB and others)
   - http://rosettacode.org (All kinds of languages)
 
-Other reference:
+### Others
 
   - http://stackoverflow.com/questions/26301/your-favourite-algorithm-and-the-lesson-it-taught-you
   - http://cglab.ca/publications.html
