@@ -64,6 +64,7 @@ A list of links and projects focusing on algorithm implementation.
 ### Projects implementing algorithms in other languages
 
   - https://github.com/xtaci/algorithms (C++)
+  - https://github.com/fragglet/c-algorithms (C)
   - https://github.com/nryoung/algorithms (Python)
   - https://github.com/kanwei/algorithms (Ruby)
   - https://github.com/phishman3579/java-algorithms-implementation (Java)
