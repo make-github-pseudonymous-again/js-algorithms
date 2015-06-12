@@ -3,7 +3,7 @@
  * Output sensitive inplace algorithm to find the minima set of a set S of
  * elements according to some partial order.
  *
- * Uses at most 2nA comparisons where A is the cardinality of the minima set.
+ * Uses at most 3nA comparisons where A is the cardinality of the minima set.
  *
  * For (1), at most nA comparisons are used since we compare each element of S
  * with each elements of the minima set which is of cardinality at most A
