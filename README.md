@@ -1,8 +1,7 @@
 [js-algo](http://aureooms.github.io/js-algo)
 ==
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/aureooms/js-algo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Playground for algorithmic code bricks in JavaScript. This is a child project [js-library](https://github.com/aureooms/js-library) and the twin project
+Playground for algorithmic code bricks in JavaScript. This is a child project of [js-library](https://github.com/aureooms/js-library) and the twin project
 of [js-data-structures](https://github.com/aureooms/js-data-structures).
 
 [![NPM license](http://img.shields.io/npm/l/aureooms-js-algo.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-algo/master/LICENSE)
@@ -41,7 +40,15 @@ of those project,
   - [aureooms/js-random](https://github.com/aureooms/js-random) : randomness code bricks for JavaScript
   - [aureooms/js-rational](https://github.com/aureooms/js-rational) : rational numbers code bricks for JavaScript
   - [aureooms/js-search](https://github.com/aureooms/js-search) : item retrieval code bricks for JavaScript
+  - [aureooms/js-splitting](https://github.com/aureooms/js-splitting): splitting code bricks for JavaScript
   - [aureooms/js-sort](https://github.com/aureooms/js-sort) : sorting code bricks for JavaScript
+    - [aureooms/js-in-situ-sort-spec](https://github.com/aureooms/js-in-situ-sort-spec): in place sorting code bricks for JavaScript
+      - [aureooms/js-heapsort](https://github.com/aureooms/js-heapsort): heapsort code bricks for JavaScript
+      - [aureooms/js-quicksort](https://github.com/aureooms/js-quicksort): quicksort code bricks for JavaScript
+    - [aureooms/js-mergesort](https://github.com/aureooms/js-mergesort): mergesort code bricks for JavaScript
+    - [aureooms/js-merging](https://github.com/aureooms/js-merging): merging code bricks for JavaScript
+    - [aureooms/js-partition](https://github.com/aureooms/js-partition): partition code bricks for JavaScript
+    - [aureooms/js-selection](https://github.com/aureooms/js-selection): selection code bricks for JavaScript
   - [aureooms/js-string](https://github.com/aureooms/js-string) : character sequence code bricks for JavaScript
 
 Those packages aim to provide *code bricks* that are as generic as possible.
