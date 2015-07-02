@@ -24,7 +24,8 @@ of those project,
   - [aureooms/js-cg](https://github.com/aureooms/js-cg) : computational geometry code bricks for JavaScript
   - [aureooms/js-complex](https://github.com/aureooms/js-complex) : complex numbers code bricks for JavaScript
   - [aureooms/js-equation](https://github.com/aureooms/js-equation) : equations system code bricks for JavaScript
-  - [aureooms/js-fibonacci](https://github.com/aureooms/js-fibonacci) : fibonacci numbers code bricks for JavaScript
+  - [aureooms/js-fft](https://github.com/aureooms/js-fft) : fast Fourier transform code bricks for JavaScript
+  - [aureooms/js-fibonacci](https://github.com/aureooms/js-fibonacci) : Fibonacci numbers code bricks for JavaScript
   - [aureooms/js-gn](https://github.com/aureooms/js-gn) : graphs and networks code bricks for JavaScript
   - [aureooms/js-hash](https://github.com/aureooms/js-hash) : hashing algorithms code bricks for JavaScript
   - [aureooms/js-ho](https://github.com/aureooms/js-ho) : heuristic optimization code bricks for JavaScript
