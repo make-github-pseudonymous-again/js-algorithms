@@ -1,7 +1,7 @@
 [js-algo](http://aureooms.github.io/js-algo)
 ==
 
-Playground for algorithmic code bricks in JavaScript. This is a child project of [js-library](https://github.com/aureooms/js-library) and the twin project
+Algorithms code bricks in JavaScript. This is a child project of [js-library](https://github.com/aureooms/js-library) and the twin project
 of [js-data-structures](https://github.com/aureooms/js-data-structures).
 
 [![NPM license](http://img.shields.io/npm/l/aureooms-js-algo.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-algo/master/LICENSE)
