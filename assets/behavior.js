@@ -20,7 +20,52 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
         "title": "index"
       },
       "depth": 1,
-      "outline": []
+      "outline": [
+        {
+          "type": "heading",
+          "data": {
+            "level": 2,
+            "title": "Description",
+            "slug": "description"
+          },
+          "depth": 2
+        }, {
+          "type": "heading",
+          "data": {
+            "level": 2,
+            "title": "Reference",
+            "slug": "reference"
+          },
+          "depth": 2,
+          "children": [
+            {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "Projects implementing algorithms in JavaScript",
+                "slug": "projects-implementing-algorithms-in-javascript"
+              },
+              "depth": 3
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "Projects implementing algorithms in other languages",
+                "slug": "projects-implementing-algorithms-in-other-languages"
+              },
+              "depth": 3
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "Others",
+                "slug": "others"
+              },
+              "depth": 3
+            }
+          ]
+        }
+      ]
     }, {
       "type": "folder",
       "data": {
