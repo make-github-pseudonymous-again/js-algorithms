@@ -1,11 +1,11 @@
 {
-	"name": "aureooms-js-algo",
+	"name": "aureooms-js-algorithms",
 	"description": "playground for algorithmic code bricks in JavaScript",
-	"homepage": "https://aureooms.github.io/js-algo",
+	"homepage": "https://aureooms.github.io/js-algorithms",
 	"main": "js/dist/algo.js",
 	"version": "3.0.5",
 	"repository": {
-		"url": "https://github.com/aureooms/js-algo.git",
+		"url": "https://github.com/aureooms/js-algorithms.git",
 		"type": "git"
 	},
 	"keywords": [
@@ -37,7 +37,7 @@
 		"aureooms-node-package": "^5.0.2"
 	},
 	"bugs": {
-		"url": "https://github.com/aureooms/js-algo/issues"
+		"url": "https://github.com/aureooms/js-algorithms/issues"
 	},
 	"dependencies": {},
 	"license": "AGPL-3.0",

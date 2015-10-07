@@ -1,20 +1,21 @@
-[js-algo](http://aureooms.github.io/js-algo)
+[js-algorithms](http://aureooms.github.io/js-algorithms)
 ==
 
-Algorithms code bricks in JavaScript. This is a child project of [js-library](https://github.com/aureooms/js-library) and the twin project
+Algorithms code bricks in JavaScript. This is a child project of
+[js-library](https://github.com/aureooms/js-library) and the twin project
 of [js-data-structures](https://github.com/aureooms/js-data-structures).
 
-[![NPM license](http://img.shields.io/npm/l/aureooms-js-algo.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-algo/master/LICENSE)
-[![NPM version](http://img.shields.io/npm/v/aureooms-js-algo.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-algo)
-[![Bower version](http://img.shields.io/bower/v/aureooms-js-algo.svg?style=flat)](http://bower.io/search/?q=aureooms-js-algo)
-[![Build Status](http://img.shields.io/travis/aureooms/js-algo.svg?style=flat)](https://travis-ci.org/aureooms/js-algo)
-[![Coverage Status](http://img.shields.io/coveralls/aureooms/js-algo.svg?style=flat)](https://coveralls.io/r/aureooms/js-algo)
-[![Dependencies Status](http://img.shields.io/david/aureooms/js-algo.svg?style=flat)](https://david-dm.org/aureooms/js-algo#info=dependencies)
-[![devDependencies Status](http://img.shields.io/david/dev/aureooms/js-algo.svg?style=flat)](https://david-dm.org/aureooms/js-algo#info=devDependencies)
-[![Code Climate](http://img.shields.io/codeclimate/github/aureooms/js-algo.svg?style=flat)](https://codeclimate.com/github/aureooms/js-algo)
-[![NPM downloads per month](http://img.shields.io/npm/dm/aureooms-js-algo.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-algo)
-[![GitHub issues](http://img.shields.io/github/issues/aureooms/js-algo.svg?style=flat)](https://github.com/aureooms/js-algo/issues)
-[![Inline docs](http://inch-ci.org/github/aureooms/js-algo.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-algo)
+[![NPM license](http://img.shields.io/npm/l/aureooms-js-algorithms.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-algorithms/master/LICENSE)
+[![NPM version](http://img.shields.io/npm/v/aureooms-js-algorithms.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-algorithms)
+[![Bower version](http://img.shields.io/bower/v/aureooms-js-algorithms.svg?style=flat)](http://bower.io/search/?q=aureooms-js-algorithms)
+[![Build Status](http://img.shields.io/travis/aureooms/js-algorithms.svg?style=flat)](https://travis-ci.org/aureooms/js-algorithms)
+[![Coverage Status](http://img.shields.io/coveralls/aureooms/js-algorithms.svg?style=flat)](https://coveralls.io/r/aureooms/js-algorithms)
+[![Dependencies Status](http://img.shields.io/david/aureooms/js-algorithms.svg?style=flat)](https://david-dm.org/aureooms/js-algorithms#info=dependencies)
+[![devDependencies Status](http://img.shields.io/david/dev/aureooms/js-algorithms.svg?style=flat)](https://david-dm.org/aureooms/js-algorithms#info=devDependencies)
+[![Code Climate](http://img.shields.io/codeclimate/github/aureooms/js-algorithms.svg?style=flat)](https://codeclimate.com/github/aureooms/js-algorithms)
+[![NPM downloads per month](http://img.shields.io/npm/dm/aureooms-js-algorithms.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-algorithms)
+[![GitHub issues](http://img.shields.io/github/issues/aureooms/js-algorithms.svg?style=flat)](https://github.com/aureooms/js-algorithms/issues)
+[![Inline docs](http://inch-ci.org/github/aureooms/js-algorithms.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-algorithms)
 
 ## Description
 

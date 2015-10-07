@@ -190,8 +190,8 @@ var all = function ( name, algo ) {
 
 [
 	[
-		"algo.__bdpdc__",
-		algo.__bdpdc__(
+		"algorithms.__bdpdc__",
+		algorithms.__bdpdc__(
 			selection.single( partition.hoare ) , // select,
 			functools.curry( function ( i, v, a ) { // __eq__,
 				return + ( v === a[i] );
@@ -206,8 +206,8 @@ var all = function ( name, algo ) {
 	],
 
 	[
-		"algo.__bdpdn2__",
-		algo.__bdpdn2__(
+		"algorithms.__bdpdn2__",
+		algorithms.__bdpdn2__(
 			operator.itemgetter( 0 ),           // color,
 			splitting.hoare                     // split
 		)

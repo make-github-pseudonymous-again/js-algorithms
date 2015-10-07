@@ -1,10 +1,10 @@
 {
-	"homepage": "https://aureooms.github.io/js-algo",
-	"name": "aureooms-js-algo",
+	"homepage": "https://aureooms.github.io/js-algorithms",
+	"name": "aureooms-js-algorithms",
 	"license": "AGPL-3.0",
 	"description": "playground for algorithmic code bricks in JavaScript",
 	"version": "3.0.5",
-	"main": "js/dist/algo.js",
+	"main": "js/dist/algorithms.js",
 	"ignore": [
 		"js/index.js",
 		"js/src",

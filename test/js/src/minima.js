@@ -12,7 +12,7 @@ test( "minima 1" , function ( ) {
 
 	random.shuffle( a , 0 , a.length ) ;
 
-	var min = algo.clarkson( divides , a , 0 , a.length ) ;
+	var min = algorithms.clarkson( divides , a , 0 , a.length ) ;
 
 	deepEqual( min , 1 , "minima set has cardinality 1" ) ;
 
@@ -32,7 +32,7 @@ test( "minima 2,3" , function ( ) {
 
 	random.shuffle( a , i , j ) ;
 
-	var min = algo.clarkson( divides , a , i , j ) ;
+	var min = algorithms.clarkson( divides , a , i , j ) ;
 
 	deepEqual( min - i , 2 , "minima set has cardinality 2" ) ;
 
@@ -56,7 +56,7 @@ test( "minima totally unordered set" , function ( ) {
 
 	random.shuffle( a , 0 , n ) ;
 
-	var min = algo.clarkson( prec , a , 0 , n ) ;
+	var min = algorithms.clarkson( prec , a , 0 , n ) ;
 
 	deepEqual( min , n , "minima set has cardinality n" ) ;
 

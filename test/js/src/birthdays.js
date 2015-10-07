@@ -1,11 +1,11 @@
 
-var compare = algo.__absepsilon__( 1e-4 );
+var compare = algorithms.__absepsilon__( 1e-4 );
 
 var run = function ( k, n, days, expected ) {
 
 	var computed;
 
-	computed = algo.samebirthday( k, n, days );
+	computed = algorithms.samebirthday( k, n, days );
 
 	equal( compare( computed, expected ), 0, k + ", " + n + ", " + days + " : " + computed );
 

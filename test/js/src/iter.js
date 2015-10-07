@@ -15,8 +15,8 @@ test( "iter", function () {
 	array.iota( fe, 0, n, 0 );
 	array.reversed( fe, be );
 
-	algo.fiter( 0, n, f.push.bind(f) );
-	algo.biter( 0, n, b.push.bind(b) );
+	algorithms.fiter( 0, n, f.push.bind(f) );
+	algorithms.biter( 0, n, b.push.bind(b) );
 
 	deepEqual( f, fe, "forward" );
 	deepEqual( b, be, "backward" );

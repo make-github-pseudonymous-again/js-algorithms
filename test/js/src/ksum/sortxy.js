@@ -56,8 +56,8 @@ test( "sortxy" , function ( ) {
 	} ;
 
 
-	algo.sortxy_n3( compare , X , Y , 0 , n - 1 , 0 , n - 1 , 0 , n - 1 , 0 , n - 1 , __fn__( v ) ) ;
-	algo.sortxy_n4( compare , X , Y , 0 , n - 1 , 0 , n - 1 , 0 , n - 1 , 0 , n - 1 , __fn__( w ) ) ;
+	algorithms.sortxy_n3( compare , X , Y , 0 , n - 1 , 0 , n - 1 , 0 , n - 1 , 0 , n - 1 , __fn__( v ) ) ;
+	algorithms.sortxy_n4( compare , X , Y , 0 , n - 1 , 0 , n - 1 , 0 , n - 1 , 0 , n - 1 , __fn__( w ) ) ;
 
 
 	for ( k = 0 ; k < w.length ; ++k ) {

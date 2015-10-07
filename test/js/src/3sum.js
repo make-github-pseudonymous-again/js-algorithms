@@ -46,7 +46,7 @@ test("3sum", function(){
 		}
 	};
 
-	_3sum_n2 = algo._3sum_n2;
+	_3sum_n2 = algorithms._3sum_n2;
 
 	var w = [];
 	var u = [];

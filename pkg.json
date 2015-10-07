@@ -1,10 +1,10 @@
 {
-	"name": "algo",
+	"name": "algorithms",
 	"code": {
 		"main": [
 			"js",
 			"dist",
-			"algo.js"
+			"algorithms.js"
 		],
 		"test": [
 			"test",

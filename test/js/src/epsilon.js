@@ -7,8 +7,8 @@ test ( "epsilon", function ( ) {
 	epsilon = Math.pow( 2, -10 );
 	morethanepsilon = epsilon + epsilon / 128;
 
-	absepsilon = algo.__absepsilon__( epsilon );
-	relepsilon = algo.__relepsilon__( epsilon );
+	absepsilon = algorithms.__absepsilon__( epsilon );
+	relepsilon = algorithms.__relepsilon__( epsilon );
 
 
 	ok( absepsilon( 0, 0 ) === 0, " absolute 0 === 0 " );
