@@ -1,25 +1,26 @@
 
 
-var all, one, functools, operator, array, sort, n, random, compare;
+var n;
 
-functools = require( "aureooms-js-functools" );
-operator = require( "aureooms-js-operator" );
-compare = require( "aureooms-js-compare" );
-random = require( "aureooms-js-random" );
-array = require( "aureooms-js-array" );
-sort = require( "aureooms-js-sort" );
+var itertools = require( "aureooms-js-itertools" );
+var functools = require( "aureooms-js-functools" );
+var splitting = require( "aureooms-js-splitting" );
+var partition = require( "aureooms-js-partition" ) ;
+var selection = require( "aureooms-js-selection" ) ;
+var operator = require( "aureooms-js-operator" );
+var compare = require( "aureooms-js-compare" );
+var random = require( "aureooms-js-random" );
+var array = require( "aureooms-js-array" );
 
-one = function ( bdp, __f__, a, i, j, di, dj, expected ) {
-
-	var out, i, outputordering;
+var one = function ( bdp, __f__, a, i, j, di, dj, expected ) {
 
 	++n;
 
 	random.shuffle( a, i, j );
 
-	out = bdp( __f__, a, i, j, di, dj, [] );
+	var out = itertools.list( bdp( __f__, a, i, j, di, dj, [] ) );
 
-	outputordering = compare.lexicographical( compare.lexicographical( compare.increasing ) );
+	var outputordering = compare.lexicographical( compare.lexicographical( compare.increasing ) );
 
 	array.sort( outputordering, out );
 	array.sort( outputordering, expected );
@@ -28,7 +29,7 @@ one = function ( bdp, __f__, a, i, j, di, dj, expected ) {
 
 };
 
-all = function ( name, algo ) {
+var all = function ( name, algo ) {
 
 	n = 0;
 
@@ -191,7 +192,7 @@ all = function ( name, algo ) {
 	[
 		"algo.__bdpdc__",
 		algo.__bdpdc__(
-			sort.__quickselect__( sort.partition ), // select,
+			selection.single( partition.hoare ) , // select,
 			functools.curry( function ( i, v, a ) { // __eq__,
 				return + ( v === a[i] );
 			}, 3 ),
@@ -199,7 +200,7 @@ all = function ( name, algo ) {
 				return + ( v !== a[i] );
 			}, 3 ),
 			operator.itemgetter( 0 ),               // color,
-			array.split,                            // split,
+			splitting.hoare,                        // split,
 			array.swapranges                        // swap
 		)
 	],
@@ -208,7 +209,7 @@ all = function ( name, algo ) {
 		"algo.__bdpdn2__",
 		algo.__bdpdn2__(
 			operator.itemgetter( 0 ),           // color,
-			array.split                         // split
+			splitting.hoare                     // split
 		)
 	]
 

@@ -39,7 +39,7 @@
  */
 
 
-var __bdpdc__ = function ( select, __eq__, __ne__, color, split, swap ) {
+let __bdpdc__ = function ( select, __eq__, __ne__, color, split, swap ) {
 
 	/**
 	 * a is an array of points
@@ -64,15 +64,13 @@ var __bdpdc__ = function ( select, __eq__, __ne__, color, split, swap ) {
 	 *
 	 */
 
-	var bdpdc = function ( __f__, a, i, j, di, dj, out ) {
+	let bdpdc = function* ( __f__, a, i, j, di, dj ) {
 
-		var k, h, x, y, p, q, m, n, _m, _n;
+		let k, h, x, y, p, q, m, n, _m, _n;
 
 		// empty or one element array case
 
-		if ( i >= j - 1 ) {
-			return out;
-		}
+		if ( i >= j - 1 ) return ;
 
 		// base case : dj - di = d = 0
 		// enumerate all red / blue pairs
@@ -95,12 +93,10 @@ var __bdpdc__ = function ( select, __eq__, __ne__, color, split, swap ) {
 
 				for ( y = i ; y < p ; ++y ) {
 
-					out.push( [ a[x], a[y] ] );
+					yield [ a[x], a[y] ] ;
 
 				}
 			}
-
-			return out;
 
 		}
 
@@ -174,7 +170,7 @@ var __bdpdc__ = function ( select, __eq__, __ne__, color, split, swap ) {
 			//  -------------------------------------------------------
 			// i               x         k                             j
 
-			bdpdc( __f__, a, i, x, di, dj, out );
+			yield* bdpdc( __f__, a, i, x, di, dj );
 
 			// move median elements from [ k + 1, j [ in the [ y, j [ interval, y <= j
 			// O(n)
@@ -186,7 +182,7 @@ var __bdpdc__ = function ( select, __eq__, __ne__, color, split, swap ) {
 			//  -------------------------------------------------------
 			// i               x         k             y               j
 
-			bdpdc( __f__, a, y, j, di, dj, out );
+			yield* bdpdc( __f__, a, y, j, di, dj );
 
 			// since we do not touch median elements in the first two
 			// recursive calls they are still at the correct place
@@ -342,9 +338,8 @@ var __bdpdc__ = function ( select, __eq__, __ne__, color, split, swap ) {
 			// we can thus ask the recursion fairy to take care of the other
 			// dj - di - 1 dimensions left
 
-			bdpdc( __f__, a, i, j, di + 1, dj, out );
+			yield* bdpdc( __f__, a, i, j, di + 1, dj );
 
-			return out;
 		}
 
 	};

@@ -1,9 +1,7 @@
 
-var run, compare;
+var compare = algo.__absepsilon__( 1e-4 );
 
-compare = algo.__absepsilon__( 1e-4 );
-
-run = function ( k, n, days, expected ) {
+var run = function ( k, n, days, expected ) {
 
 	var computed;
 

@@ -15,7 +15,7 @@
  */
 
 
-var __bdpdn2__ = function ( color, split ) {
+let __bdpdn2__ = function ( color, split ) {
 
 	/**
 	 * a is an array of points
@@ -36,19 +36,15 @@ var __bdpdn2__ = function ( color, split ) {
 	 *       f( a, b ) = 0 means a = b;
 	 *       f( a, b ) > 0 means a > b.
 	 *
-	 * out is the output array
-	 *
 	 */
 
-	var bdpdn2 = function ( __f__, a, i, j, di, dj, out ) {
+	let bdpdn2 = function* ( __f__, a, i, j, di, dj ) {
 
-		var x, y, p, d, f;
+		let x, y, p, d, f;
 
 		// empty or one element array case
 
-		if ( i >= j - 1 ) {
-			return out;
-		}
+		if ( i >= j - 1 ) return ;
 
 		// move all blue points left and all red points right
 		// (arbitrary choice)
@@ -77,12 +73,10 @@ var __bdpdn2__ = function ( color, split ) {
 
 				}
 
-				out.push( [ a[x], a[y] ] );
+				yield [ a[x], a[y] ] ;
 
 			}
 		}
-
-		return out;
 
 	};
 
