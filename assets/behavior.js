@@ -13,7 +13,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "commentsOnly": true,
           "name": "Markdown"
         },
-        "sourcePath": "/home/aureooms/dev/js/js-algo/README.md",
+        "sourcePath": "/home/aureooms/dev/js/js-algorithms/README.md",
         "projectPath": "README.md",
         "targetPath": "index",
         "pageTitle": "index",
@@ -86,7 +86,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/3sum/_3sum_n2.js",
+            "sourcePath": "/home/aureooms/dev/js/js-algorithms/js/src/3sum/_3sum_n2.js",
             "projectPath": "js/src/3sum/_3sum_n2.js",
             "targetPath": "3sum/_3sum_n2",
             "pageTitle": "3sum/_3sum_n2",
@@ -116,7 +116,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/4sum/sortxy_n3.js",
+            "sourcePath": "/home/aureooms/dev/js/js-algorithms/js/src/4sum/sortxy_n3.js",
             "projectPath": "js/src/4sum/sortxy_n3.js",
             "targetPath": "4sum/sortxy_n3",
             "pageTitle": "4sum/sortxy_n3",
@@ -154,7 +154,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/4sum/sortxy_n4.js",
+            "sourcePath": "/home/aureooms/dev/js/js-algorithms/js/src/4sum/sortxy_n4.js",
             "projectPath": "js/src/4sum/sortxy_n4.js",
             "targetPath": "4sum/sortxy_n4",
             "pageTitle": "4sum/sortxy_n4",
@@ -202,7 +202,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/array/iter.js",
+            "sourcePath": "/home/aureooms/dev/js/js-algorithms/js/src/array/iter.js",
             "projectPath": "js/src/array/iter.js",
             "targetPath": "array/iter",
             "pageTitle": "array/iter",
@@ -232,7 +232,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/bdp/bdpdc.js",
+            "sourcePath": "/home/aureooms/dev/js/js-algorithms/js/src/bdp/bdpdc.js",
             "projectPath": "js/src/bdp/bdpdc.js",
             "targetPath": "bdp/bdpdc",
             "pageTitle": "bdp/bdpdc",
@@ -398,7 +398,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/bdp/bdpdn2.js",
+            "sourcePath": "/home/aureooms/dev/js/js-algorithms/js/src/bdp/bdpdn2.js",
             "projectPath": "js/src/bdp/bdpdn2.js",
             "targetPath": "bdp/bdpdn2",
             "pageTitle": "bdp/bdpdn2",
@@ -428,7 +428,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/birthdays/samebirthday.js",
+            "sourcePath": "/home/aureooms/dev/js/js-algorithms/js/src/birthdays/samebirthday.js",
             "projectPath": "js/src/birthdays/samebirthday.js",
             "targetPath": "birthdays/samebirthday",
             "pageTitle": "birthdays/samebirthday",
@@ -458,7 +458,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/epsilon/absepsilon.js",
+            "sourcePath": "/home/aureooms/dev/js/js-algorithms/js/src/epsilon/absepsilon.js",
             "projectPath": "js/src/epsilon/absepsilon.js",
             "targetPath": "epsilon/absepsilon",
             "pageTitle": "epsilon/absepsilon",
@@ -478,7 +478,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/epsilon/relepsilon.js",
+            "sourcePath": "/home/aureooms/dev/js/js-algorithms/js/src/epsilon/relepsilon.js",
             "projectPath": "js/src/epsilon/relepsilon.js",
             "targetPath": "epsilon/relepsilon",
             "pageTitle": "epsilon/relepsilon",
@@ -508,7 +508,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/kldt/evenkldtto2sum.js",
+            "sourcePath": "/home/aureooms/dev/js/js-algorithms/js/src/kldt/evenkldtto2sum.js",
             "projectPath": "js/src/kldt/evenkldtto2sum.js",
             "targetPath": "kldt/evenkldtto2sum",
             "pageTitle": "kldt/evenkldtto2sum",
@@ -538,7 +538,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/kldt/oddkldtto3sum.js",
+            "sourcePath": "/home/aureooms/dev/js/js-algorithms/js/src/kldt/oddkldtto3sum.js",
             "projectPath": "js/src/kldt/oddkldtto3sum.js",
             "targetPath": "kldt/oddkldtto3sum",
             "pageTitle": "kldt/oddkldtto3sum",
@@ -568,7 +568,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-algo/js/src/minima/clarkson.js",
+            "sourcePath": "/home/aureooms/dev/js/js-algorithms/js/src/minima/clarkson.js",
             "projectPath": "js/src/minima/clarkson.js",
             "targetPath": "minima/clarkson",
             "pageTitle": "minima/clarkson",
