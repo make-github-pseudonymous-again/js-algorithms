@@ -3,7 +3,7 @@
 	"description": "playground for algorithmic code bricks in JavaScript",
 	"homepage": "https://aureooms.github.io/js-algorithms",
 	"main": "js/dist/algorithms.js",
-	"version": "3.0.6",
+	"version": "3.0.7",
 	"repository": {
 		"url": "https://github.com/aureooms/js-algorithms.git",
 		"type": "git"
