@@ -1,5 +1,9 @@
 "use strict";
 
+var _slicedToArray = (function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; })();
+
+function _toArray(arr) { return Array.isArray(arr) ? arr : Array.from(arr); }
+
 (function () {
 
 	'use strict';
@@ -730,159 +734,6 @@
 
 		exports.__relepsilon__ = __relepsilon__;
 
-		/* js/src/kldt */
-		/* js/src/kldt/evenkldtto2sum.js */
-
-		/**
-   * Transforms an instance of the one-set version of kLDT with k >= 4 even into
-   * a two-set version of 2SUM.
-   *
-   * @param {set} S is the input set for the kLDT problem
-   * @param {coefficients} a is the array of coefficients
-   * @param {set} A is one of the input set for 2SUM
-   * @param {set} B is one of the input set for 2SUM
-   *
-   * notes:
-   *   - n = Sj - Si
-   *   - k = aj - ai - 1
-   *   - a_0 = a[ai]
-   *   - A and B must be of size n^(k/2) each
-   *   - B must be initialized to 0 ... 0
-   *
-   */
-
-		var evenkldtto2sum = function evenkldtto2sum(S, Si, Sj, a, ai, aj, A, Ai, Aj, B, Bi, Bj) {
-
-			var i, j, p, q, n, halfk;
-
-			n = Sj - Si;
-
-			k = aj - ai - 1;
-
-			halfk = 1 + k / 2;
-
-			// We fill A and B for example with S = [ 1 , 2 , 3 ] and a = [ t , v , w , x , y ]
-
-			//       -----------------------------------------------------------------------
-			// A <- |   t   |   t   |   t   |   t   |   t   |   t   |   t   |   t   |   t   |
-			//       -----------------------------------------------------------------------
-
-			for (p = Ai; p < Aj; ++p) {
-
-				A[p] = a[ai];
-			}
-
-			//       -----------------------------------------------------------------------
-			// A += | v * 1 | v * 2 | v * 3 | v * 1 | v * 2 | v * 3 | v * 1 | v * 2 | v * 3 |
-			//       -----------------------------------------------------------------------
-			//       -----------------------------------------------------------------------
-			// A += | w * 1 | w * 1 | w * 1 | w * 2 | w * 2 | w * 2 | w * 3 | w * 3 | w * 3 |
-			//       -----------------------------------------------------------------------
-
-			for (j = 1, i = 1; j < halfk; ++j, i *= n) {
-
-				for (p = Ai, q = 0; p < Aj; ++p, q = ((q + 1) / i | 0) % n) {
-
-					A[p] += a[ai + j] * S[Si + q];
-				}
-			}
-
-			//       -----------------------------------------------------------------------
-			// B += | x * 1 | x * 2 | x * 3 | x * 1 | x * 2 | x * 3 | x * 1 | x * 2 | x * 3 |
-			//       -----------------------------------------------------------------------
-			//       -----------------------------------------------------------------------
-			// B += | y * 1 | y * 1 | y * 1 | y * 2 | y * 2 | y * 2 | y * 3 | y * 3 | y * 3 |
-			//       -----------------------------------------------------------------------
-
-			for (i = 1; j <= k; ++j, i *= n) {
-
-				for (p = Bi, q = 0; p < Bj; ++p, q = ((q + 1) / i | 0) % n) {
-
-					B[p] += a[ai + j] * S[Si + q];
-				}
-			}
-		};
-
-		exports.evenkldtto2sum = evenkldtto2sum;
-
-		/* js/src/kldt/oddkldtto3sum.js */
-
-		/**
-   * Transforms an instance of the one-set version of kLDT with k >= 3 odd into
-   * a three-set version of 3SUM.
-   *
-   * @param {set} S is the input set for the kLDT problem
-   * @param {coefficients} a is the array of coefficients
-   * @param {set} A is one of the input set for 3SUM
-   * @param {set} B is one of the input set for 3SUM
-   * @param {set} C is one of the input set for 3SUM
-   *
-   * notes:
-   *   - n = Sj - Si
-   *   - k = aj - ai - 1
-   *   - a_0 = a[ai]
-   *   - A and B must be of size n^((k-1)/2) each
-   *   - A and B must be initialized to 0 ... 0
-   *   - C must be of size n
-   *
-   */
-
-		var oddkldtto3sum = function oddkldtto3sum(S, Si, Sj, a, ai, aj, A, Ai, Aj, B, Bi, Bj, C, Ci, Cj) {
-
-			var i, j, p, q, n, halfk;
-
-			n = Sj - Si;
-
-			k = aj - ai - 1;
-
-			halfk = 2 + (k - 1) / 2;
-
-			// We fill A and B for example with S = [ 1 , 2 , 3 ] and a = [ t , u , v , w , x , y ]
-
-			//       -----------------------------------------------------------------------
-			// A += | v * 1 | v * 2 | v * 3 | v * 1 | v * 2 | v * 3 | v * 1 | v * 2 | v * 3 |
-			//       -----------------------------------------------------------------------
-			//       -----------------------------------------------------------------------
-			// A += | w * 1 | w * 1 | w * 1 | w * 2 | w * 2 | w * 2 | w * 3 | w * 3 | w * 3 |
-			//       -----------------------------------------------------------------------
-
-			for (j = 2, i = 1; j < halfk; ++j, i *= n) {
-
-				for (p = Ai, q = 0; p < Aj; ++p, q = ((q + 1) / i | 0) % n) {
-
-					A[p] += a[ai + j] * S[Si + q];
-				}
-			}
-
-			//       -----------------------------------------------------------------------
-			// B += | x * 1 | x * 2 | x * 3 | x * 1 | x * 2 | x * 3 | x * 1 | x * 2 | x * 3 |
-			//       -----------------------------------------------------------------------
-			//       -----------------------------------------------------------------------
-			// B += | y * 1 | y * 1 | y * 1 | y * 2 | y * 2 | y * 2 | y * 3 | y * 3 | y * 3 |
-			//       -----------------------------------------------------------------------
-
-			for (i = 1; j <= k; ++j, i *= n) {
-
-				for (p = Bi, q = 0; p < Bj; ++p, q = ((q + 1) / i | 0) % n) {
-
-					B[p] += a[ai + j] * S[Si + q];
-				}
-			}
-
-			// We fill C
-
-			//       -----------------------------------
-			// C <- | u * 1 + t | u * 2 + t | u * 3 + t |
-			//       -----------------------------------
-
-			for (q = 0; q < n; ++q) {
-
-				C[Ci + q] = a[ai + 1] * S[Si + q] + a[ai];
-			}
-		};
-
-		exports.oddkldtto3sum = oddkldtto3sum;
-
 		/* js/src/minima */
 		/* js/src/minima/clarkson.js */
 
@@ -1000,6 +851,244 @@
 		};
 
 		exports.clarkson = clarkson;
+
+		/* js/src/reductions */
+		/* js/src/reductions/chan.js */
+
+		/**
+   * Timoty Chan (1999)
+   * Geometric Applications of a Randomized Optimization Technique
+   *
+   * Translates any decision algorithm for a question of the type "is the optimal
+   * value for this problem less/greater than `c`?" to a randomized optimisation
+   * algortihm that finds the optimal value of `c*` whose expected time complexity
+   * is within a constant factor of the complexity of the decision algorithm.
+   * For this to work we must be capable of splitting a problem into a constant
+   * number of smaller (by a constant factor) subproblems so that the optimal
+   * value of the original problem is the min/max of the optimal values for the
+   * subproblems. For example, given a decision algorithm `decide( G , c )`
+   * that decides whether graph G has diameter greater than c, we can split the
+   * problem into k^2 subproblems of size (2n/k), that is, the diameter of G is
+   * the maximum over the diameters of all subgraphs that are the union of 2
+   * disjoint subgraphs taken from a partition of G into k disjoint subgraphs of
+   * size n/k. Finding the optimal k for a given problem requires to solve a
+   * reccurence expressing the time-complexity of the following meta-algorithm.
+   * Read Timoty Chan's paper for more information.
+   */
+
+		var chan = function chan(split, shuffle, decide, bruteforce, issmall) {
+
+			var solve = function solve(instance) {
+
+				if (issmall(instance)) return bruteforce(instance);
+
+				var _shuffle = shuffle(split(instance));
+
+				var _shuffle2 = _toArray(_shuffle);
+
+				var first = _shuffle2[0];
+
+				var rest = _shuffle2.slice(1);
+
+				var _solve = solve(first);
+
+				var _solve2 = _slicedToArray(_solve, 2);
+
+				var current = _solve2[0];
+				var optimum = _solve2[1];
+				var _iteratorNormalCompletion = true;
+				var _didIteratorError = false;
+				var _iteratorError = undefined;
+
+				try {
+
+					for (var _iterator = rest[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+						var candidate = _step.value;
+
+						if (decide(candidate, optimum)) {
+							var _solve3 = solve(candidate);
+
+							var _solve32 = _slicedToArray(_solve3, 2);
+
+							current = _solve32[0];
+							optimum = _solve32[1];
+						}
+					}
+				} catch (err) {
+					_didIteratorError = true;
+					_iteratorError = err;
+				} finally {
+					try {
+						if (!_iteratorNormalCompletion && _iterator["return"]) {
+							_iterator["return"]();
+						}
+					} finally {
+						if (_didIteratorError) {
+							throw _iteratorError;
+						}
+					}
+				}
+
+				return [current, optimum];
+			};
+
+			return solve;
+		};
+
+		exports.chan = chan;
+
+		/* js/src/reductions/kldt */
+		/* js/src/reductions/kldt/evenkldtto2sum.js */
+
+		/**
+   * Transforms an instance of the one-set version of kLDT with k >= 4 even into
+   * a two-set version of 2SUM.
+   *
+   * @param {set} S is the input set for the kLDT problem
+   * @param {coefficients} a is the array of coefficients
+   * @param {set} A is one of the input set for 2SUM
+   * @param {set} B is one of the input set for 2SUM
+   *
+   * notes:
+   *   - n = Sj - Si
+   *   - k = aj - ai - 1
+   *   - a_0 = a[ai]
+   *   - A and B must be of size n^(k/2) each
+   *   - B must be initialized to 0 ... 0
+   *
+   */
+
+		var evenkldtto2sum = function evenkldtto2sum(S, Si, Sj, a, ai, aj, A, Ai, Aj, B, Bi, Bj) {
+
+			var i, j, p, q, n, halfk;
+
+			n = Sj - Si;
+
+			k = aj - ai - 1;
+
+			halfk = 1 + k / 2;
+
+			// We fill A and B for example with S = [ 1 , 2 , 3 ] and a = [ t , v , w , x , y ]
+
+			//       -----------------------------------------------------------------------
+			// A <- |   t   |   t   |   t   |   t   |   t   |   t   |   t   |   t   |   t   |
+			//       -----------------------------------------------------------------------
+
+			for (p = Ai; p < Aj; ++p) {
+
+				A[p] = a[ai];
+			}
+
+			//       -----------------------------------------------------------------------
+			// A += | v * 1 | v * 2 | v * 3 | v * 1 | v * 2 | v * 3 | v * 1 | v * 2 | v * 3 |
+			//       -----------------------------------------------------------------------
+			//       -----------------------------------------------------------------------
+			// A += | w * 1 | w * 1 | w * 1 | w * 2 | w * 2 | w * 2 | w * 3 | w * 3 | w * 3 |
+			//       -----------------------------------------------------------------------
+
+			for (j = 1, i = 1; j < halfk; ++j, i *= n) {
+
+				for (p = Ai, q = 0; p < Aj; ++p, q = ((q + 1) / i | 0) % n) {
+
+					A[p] += a[ai + j] * S[Si + q];
+				}
+			}
+
+			//       -----------------------------------------------------------------------
+			// B += | x * 1 | x * 2 | x * 3 | x * 1 | x * 2 | x * 3 | x * 1 | x * 2 | x * 3 |
+			//       -----------------------------------------------------------------------
+			//       -----------------------------------------------------------------------
+			// B += | y * 1 | y * 1 | y * 1 | y * 2 | y * 2 | y * 2 | y * 3 | y * 3 | y * 3 |
+			//       -----------------------------------------------------------------------
+
+			for (i = 1; j <= k; ++j, i *= n) {
+
+				for (p = Bi, q = 0; p < Bj; ++p, q = ((q + 1) / i | 0) % n) {
+
+					B[p] += a[ai + j] * S[Si + q];
+				}
+			}
+		};
+
+		exports.evenkldtto2sum = evenkldtto2sum;
+
+		/* js/src/reductions/kldt/oddkldtto3sum.js */
+
+		/**
+   * Transforms an instance of the one-set version of kLDT with k >= 3 odd into
+   * a three-set version of 3SUM.
+   *
+   * @param {set} S is the input set for the kLDT problem
+   * @param {coefficients} a is the array of coefficients
+   * @param {set} A is one of the input set for 3SUM
+   * @param {set} B is one of the input set for 3SUM
+   * @param {set} C is one of the input set for 3SUM
+   *
+   * notes:
+   *   - n = Sj - Si
+   *   - k = aj - ai - 1
+   *   - a_0 = a[ai]
+   *   - A and B must be of size n^((k-1)/2) each
+   *   - A and B must be initialized to 0 ... 0
+   *   - C must be of size n
+   *
+   */
+
+		var oddkldtto3sum = function oddkldtto3sum(S, Si, Sj, a, ai, aj, A, Ai, Aj, B, Bi, Bj, C, Ci, Cj) {
+
+			var i, j, p, q, n, halfk;
+
+			n = Sj - Si;
+
+			k = aj - ai - 1;
+
+			halfk = 2 + (k - 1) / 2;
+
+			// We fill A and B for example with S = [ 1 , 2 , 3 ] and a = [ t , u , v , w , x , y ]
+
+			//       -----------------------------------------------------------------------
+			// A += | v * 1 | v * 2 | v * 3 | v * 1 | v * 2 | v * 3 | v * 1 | v * 2 | v * 3 |
+			//       -----------------------------------------------------------------------
+			//       -----------------------------------------------------------------------
+			// A += | w * 1 | w * 1 | w * 1 | w * 2 | w * 2 | w * 2 | w * 3 | w * 3 | w * 3 |
+			//       -----------------------------------------------------------------------
+
+			for (j = 2, i = 1; j < halfk; ++j, i *= n) {
+
+				for (p = Ai, q = 0; p < Aj; ++p, q = ((q + 1) / i | 0) % n) {
+
+					A[p] += a[ai + j] * S[Si + q];
+				}
+			}
+
+			//       -----------------------------------------------------------------------
+			// B += | x * 1 | x * 2 | x * 3 | x * 1 | x * 2 | x * 3 | x * 1 | x * 2 | x * 3 |
+			//       -----------------------------------------------------------------------
+			//       -----------------------------------------------------------------------
+			// B += | y * 1 | y * 1 | y * 1 | y * 2 | y * 2 | y * 2 | y * 3 | y * 3 | y * 3 |
+			//       -----------------------------------------------------------------------
+
+			for (i = 1; j <= k; ++j, i *= n) {
+
+				for (p = Bi, q = 0; p < Bj; ++p, q = ((q + 1) / i | 0) % n) {
+
+					B[p] += a[ai + j] * S[Si + q];
+				}
+			}
+
+			// We fill C
+
+			//       -----------------------------------
+			// C <- | u * 1 + t | u * 2 + t | u * 3 + t |
+			//       -----------------------------------
+
+			for (q = 0; q < n; ++q) {
+
+				C[Ci + q] = a[ai + 1] * S[Si + q] + a[ai];
+			}
+		};
+
+		exports.oddkldtto3sum = oddkldtto3sum;
 
 		return exports;
 	};
