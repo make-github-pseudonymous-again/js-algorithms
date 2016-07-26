@@ -34,7 +34,7 @@
 		"aureooms-js-selection": "^8.0.1",
 		"aureooms-js-sort": "^6.0.0",
 		"aureooms-js-splitting": "^4.0.2",
-		"aureooms-node-package": "^5.0.2"
+		"aureooms-node-package": "^6.0.1"
 	},
 	"bugs": {
 		"url": "https://github.com/aureooms/js-algorithms/issues"
