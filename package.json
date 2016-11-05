@@ -27,7 +27,7 @@
 		"aureooms-js-array": "^3.1.0",
 		"aureooms-js-compare": "^1.4.3",
 		"aureooms-js-functools": "^2.0.3",
-		"aureooms-js-itertools": "^1.3.0",
+		"aureooms-js-itertools": "^3.0.0",
 		"aureooms-js-operator": "^1.0.2",
 		"aureooms-js-partition": "^7.0.0",
 		"aureooms-js-random": "^1.0.1",
