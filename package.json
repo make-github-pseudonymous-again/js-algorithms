@@ -31,7 +31,7 @@
 		"aureooms-js-operator": "^1.0.2",
 		"aureooms-js-partition": "^7.0.0",
 		"aureooms-js-random": "^1.0.1",
-		"aureooms-js-selection": "^8.0.1",
+		"aureooms-js-selection": "^9.0.0",
 		"aureooms-js-sort": "^6.0.0",
 		"aureooms-js-splitting": "^4.0.2",
 		"aureooms-node-package": "^6.0.1"
