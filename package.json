@@ -1,6 +1,6 @@
 {
 	"name": "aureooms-js-algorithms",
-	"description": "playground for algorithmic code bricks in JavaScript",
+	"description": "Playground for algorithms in JavaScript",
 	"homepage": "https://aureooms.github.io/js-algorithms",
 	"main": "js/dist/algorithms.js",
 	"version": "3.0.7",

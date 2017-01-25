@@ -1,9 +1,12 @@
-[js-algorithms](http://aureooms.github.io/js-algorithms)
+[@aureooms/js-algorithms](https://aureooms.github.io/js-algorithms)
 ==
 
-Algorithms code bricks in JavaScript. This is a child project of
-[js-library](https://github.com/aureooms/js-library) and the twin project
-of [js-data-structures](https://github.com/aureooms/js-data-structures).
+<img src="https://cdn.rawgit.com/aureooms/js-algorithms/master/media/sketch.png" width="864">
+
+Playground for algorithms in JavaScript.
+This is a child project of [@aureooms/js-library](https://github.com/aureooms/js-library)
+and
+the twin project of [@aureooms/js-data-structures](https://github.com/aureooms/js-data-structures).
 
 [![NPM license](http://img.shields.io/npm/l/aureooms-js-algorithms.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-algorithms/master/LICENSE)
 [![NPM version](http://img.shields.io/npm/v/aureooms-js-algorithms.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-algorithms)
