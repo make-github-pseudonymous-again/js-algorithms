@@ -71,6 +71,7 @@ A list of links and projects focusing on algorithm implementation.
   - https://github.com/felipernb/algorithms.js
   - https://github.com/mgechev/javascript-algorithms
   - https://github.com/nzakas/computer-science-in-javascript
+  - https://github.com/benoitvallon/computer-science-in-javascript
   - http://www.nayuki.io
 
 ### Projects implementing algorithms in other languages
