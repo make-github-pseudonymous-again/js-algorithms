@@ -1,5 +1,5 @@
 {
-	"name": "aureooms-js-algorithms",
+	"name": "@aureooms/js-algorithms",
 	"description": "Playground for algorithms in JavaScript",
 	"homepage": "https://aureooms.github.io/js-algorithms",
 	"main": "js/dist/algorithms.js",
@@ -24,16 +24,16 @@
 	},
 	"author": "aureooms",
 	"devDependencies": {
-		"aureooms-js-array": "^3.1.0",
-		"aureooms-js-compare": "^1.4.3",
-		"aureooms-js-functools": "^2.0.3",
-		"aureooms-js-itertools": "^3.0.0",
-		"aureooms-js-operator": "^1.0.2",
-		"aureooms-js-partition": "^8.0.0",
-		"aureooms-js-random": "^1.0.1",
-		"aureooms-js-selection": "^9.0.0",
-		"aureooms-js-sort": "^7.0.0",
-		"aureooms-js-splitting": "^4.0.2",
+		"@aureooms/js-array": "^3.1.0",
+		"@aureooms/js-compare": "^1.4.3",
+		"@aureooms/js-functools": "^2.0.3",
+		"@aureooms/js-itertools": "^3.0.0",
+		"@aureooms/js-operator": "^1.0.2",
+		"@aureooms/js-partition": "^8.0.0",
+		"@aureooms/js-random": "^1.0.1",
+		"@aureooms/js-selection": "^9.0.0",
+		"@aureooms/js-sort": "^7.0.0",
+		"@aureooms/js-splitting": "^4.0.2",
 		"aureooms-node-package": "^6.0.1"
 	},
 	"bugs": {
