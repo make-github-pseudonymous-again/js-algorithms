@@ -1,5 +1,5 @@
 
-var array = require( "aureooms-js-array" );
+var array = require( "@aureooms/js-array" );
 
 test( "iter", function () {
 

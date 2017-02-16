@@ -1162,12 +1162,12 @@ function _toArray(arr) { return Array.isArray(arr) ? arr : Array.from(arr); }
 	if (typeof exports === "object") {
 		definition(exports);
 	} else if (typeof define === "function" && define.amd) {
-		define("aureooms-js-algorithms", [], function () {
+		define("@aureooms/js-algorithms", [], function () {
 			return definition({});
 		});
 	} else if (typeof window === "object" && typeof window.document === "object") {
 		definition(window["algorithms"] = {});
-	} else console.error("unable to detect type of module to define for aureooms-js-algorithms");
+	} else console.error("unable to detect type of module to define for @aureooms/js-algorithms");
 })();
 
 // empty or one element array case

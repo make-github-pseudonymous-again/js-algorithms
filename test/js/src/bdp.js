@@ -2,15 +2,15 @@
 
 var n;
 
-var itertools = require( "aureooms-js-itertools" );
-var functools = require( "aureooms-js-functools" );
-var splitting = require( "aureooms-js-splitting" );
-var partition = require( "aureooms-js-partition" ) ;
-var selection = require( "aureooms-js-selection" ) ;
-var operator = require( "aureooms-js-operator" );
-var compare = require( "aureooms-js-compare" );
-var random = require( "aureooms-js-random" );
-var array = require( "aureooms-js-array" );
+var itertools = require( "@aureooms/js-itertools" );
+var functools = require( "@aureooms/js-functools" );
+var splitting = require( "@aureooms/js-splitting" );
+var partition = require( "@aureooms/js-partition" ) ;
+var selection = require( "@aureooms/js-selection" ) ;
+var operator = require( "@aureooms/js-operator" );
+var compare = require( "@aureooms/js-compare" );
+var random = require( "@aureooms/js-random" );
+var array = require( "@aureooms/js-array" );
 
 var one = function ( bdp, __f__, a, i, j, di, dj, expected ) {
 

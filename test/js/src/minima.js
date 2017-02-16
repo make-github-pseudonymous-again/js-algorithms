@@ -1,8 +1,8 @@
 
-var sort = require( "aureooms-js-sort" ) ;
-var array = require( "aureooms-js-array" ) ;
-var random = require( "aureooms-js-random" ) ;
-var compare = require( "aureooms-js-compare" ) ;
+var sort = require( "@aureooms/js-sort" ) ;
+var array = require( "@aureooms/js-array" ) ;
+var random = require( "@aureooms/js-random" ) ;
+var compare = require( "@aureooms/js-compare" ) ;
 
 test( "minima 1" , function ( ) {
 

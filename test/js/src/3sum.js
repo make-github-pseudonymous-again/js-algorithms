@@ -1,6 +1,6 @@
 
 var util = require( "util" );
-var array = require( "aureooms-js-array" );
+var array = require( "@aureooms/js-array" );
 
 test("3sum", function(){
 
