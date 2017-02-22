@@ -23,38 +23,66 @@ the twin project of [@aureooms/js-data-structures](https://github.com/aureooms/j
 ## Description
 
 This project is just a playground for any algorithm that doesn't fit in any
-of those project,
+of those projects,
 
-  - [aureooms/js-cg](https://github.com/aureooms/js-cg) : computational geometry code bricks for JavaScript
-  - [aureooms/js-complex](https://github.com/aureooms/js-complex) : complex numbers code bricks for JavaScript
-  - [aureooms/js-equation](https://github.com/aureooms/js-equation) : equations system code bricks for JavaScript
-  - [aureooms/js-fft](https://github.com/aureooms/js-fft) : fast Fourier transform code bricks for JavaScript
-  - [aureooms/js-fibonacci](https://github.com/aureooms/js-fibonacci) : Fibonacci numbers code bricks for JavaScript
-  - [aureooms/js-gn](https://github.com/aureooms/js-gn) : graphs and networks code bricks for JavaScript
-  - [aureooms/js-hash](https://github.com/aureooms/js-hash) : hashing algorithms code bricks for JavaScript
-  - [aureooms/js-ho](https://github.com/aureooms/js-ho) : heuristic optimization code bricks for JavaScript
-  - [aureooms/js-hypermatrix](https://github.com/aureooms/js-hypermatrix) : hypermatrices code bricks for JavaScript
-  - [aureooms/js-integer](https://github.com/aureooms/js-integer) : multi-precision arithmetic code bricks for JavaScript
-  - [aureooms/js-matrix](https://github.com/aureooms/js-matrix) : matrices code bricks for JavaScript
-  - [aureooms/js-nlp](https://github.com/aureooms/js-nlp) : natural language processing code bricks for JavaScript
-  - [aureooms/js-oro](https://github.com/aureooms/js-oro) : operations research and optimization algorithm templates for JavaScript
-  - [aureooms/js-permutation](https://github.com/aureooms/js-permutation) : permutations code bricks for JavaScript
-  - [aureooms/js-pfsp-wt](https://github.com/aureooms/js-pfsp-wt) : permutation flow-shop problem (PFSP) with weighted tardiness objective (PFSP-WT) code bricks for JavaScript
-  - [aureooms/js-polynomial](https://github.com/aureooms/js-polynomial) : sparse and dense polynomials code bricks for JavaScript
-  - [aureooms/js-prime](https://github.com/aureooms/js-prime) : prime numbers code bricks for JavaScript
-  - [aureooms/js-random](https://github.com/aureooms/js-random) : randomness code bricks for JavaScript
-  - [aureooms/js-rational](https://github.com/aureooms/js-rational) : rational numbers code bricks for JavaScript
-  - [aureooms/js-search](https://github.com/aureooms/js-search) : item retrieval code bricks for JavaScript
-  - [aureooms/js-splitting](https://github.com/aureooms/js-splitting): splitting code bricks for JavaScript
-  - [aureooms/js-sort](https://github.com/aureooms/js-sort) : sorting code bricks for JavaScript
-    - [aureooms/js-in-situ-sort-spec](https://github.com/aureooms/js-in-situ-sort-spec): in place sorting code bricks for JavaScript
-      - [aureooms/js-heapsort](https://github.com/aureooms/js-heapsort): heapsort code bricks for JavaScript
-      - [aureooms/js-quicksort](https://github.com/aureooms/js-quicksort): quicksort code bricks for JavaScript
-    - [aureooms/js-mergesort](https://github.com/aureooms/js-mergesort): mergesort code bricks for JavaScript
-    - [aureooms/js-merging](https://github.com/aureooms/js-merging): merging code bricks for JavaScript
-    - [aureooms/js-partition](https://github.com/aureooms/js-partition): partition code bricks for JavaScript
-    - [aureooms/js-selection](https://github.com/aureooms/js-selection): selection code bricks for JavaScript
-  - [aureooms/js-string](https://github.com/aureooms/js-string) : character sequence code bricks for JavaScript
+### Sorting
+
+  - [@aureooms/js-sort](https://github.com/aureooms/js-sort) : sorting code bricks for JavaScript
+    - [@aureooms/js-in-situ-sort-spec](https://github.com/aureooms/js-in-situ-sort-spec): in place sorting code bricks for JavaScript
+      - [@aureooms/js-heapsort](https://github.com/aureooms/js-heapsort): heapsort code bricks for JavaScript
+      - [@aureooms/js-quicksort](https://github.com/aureooms/js-quicksort): quicksort code bricks for JavaScript
+    - [@aureooms/js-mergesort](https://github.com/aureooms/js-mergesort): mergesort code bricks for JavaScript
+    - [@aureooms/js-merging](https://github.com/aureooms/js-merging): merging code bricks for JavaScript
+    - [@aureooms/js-partition](https://github.com/aureooms/js-partition): partition code bricks for JavaScript
+    - [@aureooms/js-selection](https://github.com/aureooms/js-selection): selection code bricks for JavaScript
+    
+### Searching
+  - [@aureooms/js-search](https://github.com/aureooms/js-search) : item retrieval code bricks for JavaScript
+  - [@aureooms/js-splitting](https://github.com/aureooms/js-splitting): splitting code bricks for JavaScript
+  
+### Strings
+  - [@aureooms/js-string](https://github.com/aureooms/js-string) : character sequence code bricks for JavaScript
+  - [@aureooms/js-nlp](https://github.com/aureooms/js-nlp) : natural language processing code bricks for JavaScript
+ 
+### Computational geometry
+  - [@aureooms/js-cg](https://github.com/aureooms/js-cg) : computational geometry code bricks for JavaScript
+ 
+### Graph theory
+  - [@aureooms/js-gn](https://github.com/aureooms/js-gn) : graphs and networks code bricks for JavaScript
+
+### Numbers
+  
+  - [@aureooms/js-integer](https://github.com/aureooms/js-integer) : multi-precision arithmetic code bricks for JavaScript
+  - [@aureooms/js-rational](https://github.com/aureooms/js-rational) : rational numbers code bricks for JavaScript
+  - [@aureooms/js-complex](https://github.com/aureooms/js-complex) : complex numbers code bricks for JavaScript
+  - [@aureooms/js-polynomial](https://github.com/aureooms/js-polynomial) : sparse and dense polynomials code bricks for JavaScript
+
+#### Number theory
+  - [@aureooms/js-fft](https://github.com/aureooms/js-fft) : fast Fourier transform code bricks for JavaScript
+  - [@aureooms/js-prime](https://github.com/aureooms/js-prime) : prime numbers code bricks for JavaScript
+  
+#### Number sequences
+  - [@aureooms/js-fibonacci](https://github.com/aureooms/js-fibonacci) : Fibonacci numbers code bricks for JavaScript
+  
+#### Matrices
+  - [@aureooms/js-matrix](https://github.com/aureooms/js-matrix) : matrices code bricks for JavaScript
+  - [@aureooms/js-hypermatrix](https://github.com/aureooms/js-hypermatrix) : hypermatrices code bricks for JavaScript
+  
+### Hashing
+  - [@aureooms/js-hash](https://github.com/aureooms/js-hash) : hashing algorithms code bricks for JavaScript
+  
+### Pseudo-random generators
+  - [@aureooms/js-random](https://github.com/aureooms/js-random) : randomness code bricks for JavaScript
+  
+### Hard optimization
+  - [@aureooms/js-ho](https://github.com/aureooms/js-ho) : heuristic optimization code bricks for JavaScript
+  - [@aureooms/js-oro](https://github.com/aureooms/js-oro) : operations research and optimization algorithm templates for JavaScript
+  - [@aureooms/js-pfsp-wt](https://github.com/aureooms/js-pfsp-wt) : permutation flow-shop problem (PFSP) with weighted tardiness objective (PFSP-WT) code bricks for JavaScript
+
+### Miscellaneous
+  - [@aureooms/js-equation](https://github.com/aureooms/js-equation) : equations system code bricks for JavaScript
+  - [@aureooms/js-permutation](https://github.com/aureooms/js-permutation) : permutations code bricks for JavaScript
+
 
 Those packages aim to provide *code bricks* that are as generic as possible.
 Some examples are a Gauss-Jordan method that can work with any number model, a
