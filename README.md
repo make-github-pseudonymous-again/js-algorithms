@@ -74,7 +74,8 @@ of those projects,
 ### Pseudo-random generators
   - [@aureooms/js-random](https://github.com/aureooms/js-random) : randomness code bricks for JavaScript
   
-### Hard optimization
+### Hard problems
+  - [@aureooms/js-sat](https://github.com/aureooms/js-sat) : Boolean formula satisfiability algorithms for Javascript
   - [@aureooms/js-ho](https://github.com/aureooms/js-ho) : heuristic optimization code bricks for JavaScript
   - [@aureooms/js-oro](https://github.com/aureooms/js-oro) : operations research and optimization algorithm templates for JavaScript
   - [@aureooms/js-pfsp-wt](https://github.com/aureooms/js-pfsp-wt) : permutation flow-shop problem (PFSP) with weighted tardiness objective (PFSP-WT) code bricks for JavaScript
