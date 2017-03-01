@@ -58,11 +58,11 @@ of those projects,
   - [@aureooms/js-polynomial](https://github.com/aureooms/js-polynomial) : sparse and dense polynomials code bricks for JavaScript
 
 #### Number theory
-  - [@aureooms/js-fft](https://github.com/aureooms/js-fft) : fast Fourier transform code bricks for JavaScript
-  - [@aureooms/js-prime](https://github.com/aureooms/js-prime) : prime numbers code bricks for JavaScript
+  - [@aureooms/js-fft](https://github.com/aureooms/js-fft) : Fast Fourier transform algorithms for JavaScript
+  - [@aureooms/js-prime](https://github.com/aureooms/js-prime) : Prime numbers for JavaScript
   
-#### Number sequences
-  - [@aureooms/js-fibonacci](https://github.com/aureooms/js-fibonacci) : Fibonacci numbers code bricks for JavaScript
+#### Integer sequences
+  - [@aureooms/js-fibonacci](https://github.com/aureooms/js-fibonacci) : Fibonacci numbers for JavaScript
   
 #### Matrices
   - [@aureooms/js-matrix](https://github.com/aureooms/js-matrix) : matrices code bricks for JavaScript
