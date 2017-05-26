@@ -62,6 +62,7 @@ of those projects,
   - [@aureooms/js-prime](https://github.com/aureooms/js-prime) : Prime numbers for JavaScript
   
 #### Integer sequences
+  - [@aureooms/js-integer-sequences](https://github.com/aureooms/js-integer-sequences) : Integer sequences for JavaScript
   - [@aureooms/js-fibonacci](https://github.com/aureooms/js-fibonacci) : Fibonacci numbers for JavaScript
   
 #### Matrices
