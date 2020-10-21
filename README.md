@@ -23,7 +23,8 @@ of those projects,
     Searching algorithms for JavaScript
   - [@aureooms/js-partition](https://github.com/aureooms/js-partition):
     Partitioning algorithms for JavaScript
-  - [@aureooms/js-splitting](https://github.com/aureooms/js-splitting): splitting code bricks for JavaScript
+  - [@aureooms/js-splitting](https://github.com/aureooms/js-splitting):
+    Array splitting algorithms for JavaScript
 
 ### :symbols: Strings
   - [@aureooms/js-string](https://github.com/aureooms/js-string) : character sequence code bricks for JavaScript
