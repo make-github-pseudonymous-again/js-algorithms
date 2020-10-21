@@ -84,7 +84,7 @@ of those projects,
 
 Those packages aim to provide *code bricks* that are as generic as possible.
 Some examples are a Gauss-Jordan method that can work with any number model, a
-Karatsuba algorithm that can handle any block size, a Graham Scan algorithm
+Karatsuba algorithm that can handle any input size, a Graham Scan algorithm
 that works with clockwise or counter clockwise ordering, and a Monotone Chain
 algorithm that can be used as a triangulation algorithm without any change.
 
