@@ -38,6 +38,10 @@ of those projects,
  
 ### :globe_with_meridians: Graph theory
   - [@aureooms/js-gn](https://github.com/aureooms/js-gn) : graphs and networks code bricks for JavaScript
+  - [@aureooms/js-mincut](https://github.com/aureooms/js-mincut):
+    Minimum cut algorithms for JavaScript
+  - [@aureooms/js-maximum-matching](https://github.com/aureooms/js-maximum-matching):
+    Maximum matching algorithms for JavaScript
 
 ### :1234: Numbers
   
@@ -69,6 +73,8 @@ of those projects,
   - [@aureooms/js-ho](https://github.com/aureooms/js-ho) : heuristic optimization code bricks for JavaScript
   - [@aureooms/js-oro](https://github.com/aureooms/js-oro) : operations research and optimization algorithm templates for JavaScript
   - [@aureooms/js-pfsp-wt](https://github.com/aureooms/js-pfsp-wt) : permutation flow-shop problem (PFSP) with weighted tardiness objective (PFSP-WT) code bricks for JavaScript
+  - [@aureooms/js-knapsack](https://github.com/aureooms/js-knapsack) :
+    Knapsack problem algorithms for JavaScript
 
 ### :poodle: Miscellaneous
   - [@aureooms/js-equation](https://github.com/aureooms/js-equation) : equations system code bricks for JavaScript
