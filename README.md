@@ -19,6 +19,8 @@ of those projects,
 
 ### :flashlight: Searching
   - [@aureooms/js-search](https://github.com/aureooms/js-search) : item retrieval code bricks for JavaScript
+  - [@aureooms/js-partition](https://github.com/aureooms/js-partition):
+    Partitioning algorithms for JavaScript
   - [@aureooms/js-splitting](https://github.com/aureooms/js-splitting): splitting code bricks for JavaScript
 
 ### :symbols: Strings
