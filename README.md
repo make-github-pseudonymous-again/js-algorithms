@@ -15,15 +15,7 @@ This project is just a playground for any algorithm that doesn't fit in any
 of those projects,
 
 ### :signal_strength: Sorting
-
   - [@aureooms/js-sort](https://github.com/aureooms/js-sort) : sorting code bricks for JavaScript
-    - [@aureooms/js-in-situ-sort-spec](https://github.com/aureooms/js-in-situ-sort-spec): in place sorting code bricks for JavaScript
-      - [@aureooms/js-heapsort](https://github.com/aureooms/js-heapsort): heapsort code bricks for JavaScript
-      - [@aureooms/js-quicksort](https://github.com/aureooms/js-quicksort): quicksort code bricks for JavaScript
-    - [@aureooms/js-mergesort](https://github.com/aureooms/js-mergesort): mergesort code bricks for JavaScript
-    - [@aureooms/js-merging](https://github.com/aureooms/js-merging): merging code bricks for JavaScript
-    - [@aureooms/js-partition](https://github.com/aureooms/js-partition): partition code bricks for JavaScript
-    - [@aureooms/js-selection](https://github.com/aureooms/js-selection): selection code bricks for JavaScript
 
 ### :flashlight: Searching
   - [@aureooms/js-search](https://github.com/aureooms/js-search) : item retrieval code bricks for JavaScript
