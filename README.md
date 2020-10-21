@@ -1,4 +1,4 @@
-:rocket: [@aureooms/js-algorithms](https://aureooms.github.io/js-algorithms)
+:rocket: [@aureooms/js-algorithms](https://aureooms.github.io/js-algorithms) [![License](https://img.shields.io/github/license/aureooms/js-algorithms.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-algorithms/master/LICENSE)
 ==
 
 <img src="https://cdn.rawgit.com/aureooms/js-algorithms/master/media/sketch.png" width="864">
