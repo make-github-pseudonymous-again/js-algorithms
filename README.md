@@ -24,18 +24,18 @@ of those projects,
     - [@aureooms/js-merging](https://github.com/aureooms/js-merging): merging code bricks for JavaScript
     - [@aureooms/js-partition](https://github.com/aureooms/js-partition): partition code bricks for JavaScript
     - [@aureooms/js-selection](https://github.com/aureooms/js-selection): selection code bricks for JavaScript
-    
+
 ### :flashlight: Searching
   - [@aureooms/js-search](https://github.com/aureooms/js-search) : item retrieval code bricks for JavaScript
   - [@aureooms/js-splitting](https://github.com/aureooms/js-splitting): splitting code bricks for JavaScript
-  
+
 ### :symbols: Strings
   - [@aureooms/js-string](https://github.com/aureooms/js-string) : character sequence code bricks for JavaScript
   - [@aureooms/js-nlp](https://github.com/aureooms/js-nlp) : natural language processing code bricks for JavaScript
- 
+
 ### :triangular_ruler: Computational geometry
   - [@aureooms/js-cg](https://github.com/aureooms/js-cg) : computational geometry code bricks for JavaScript
- 
+
 ### :globe_with_meridians: Graph theory
   - [@aureooms/js-gn](https://github.com/aureooms/js-gn) : graphs and networks code bricks for JavaScript
   - [@aureooms/js-mincut](https://github.com/aureooms/js-mincut):
@@ -44,7 +44,7 @@ of those projects,
     Maximum matching algorithms for JavaScript
 
 ### :1234: Numbers
-  
+
   - [@aureooms/js-integer](https://github.com/aureooms/js-integer) : multi-precision arithmetic code bricks for JavaScript
   - [@aureooms/js-rational](https://github.com/aureooms/js-rational) : rational numbers code bricks for JavaScript
   - [@aureooms/js-complex](https://github.com/aureooms/js-complex) : complex numbers code bricks for JavaScript
@@ -53,21 +53,21 @@ of those projects,
 #### :two: :three: :five: :seven: Number theory
   - [@aureooms/js-fft](https://github.com/aureooms/js-fft) : Fast Fourier transform algorithms for JavaScript
   - [@aureooms/js-prime](https://github.com/aureooms/js-prime) : Prime numbers for JavaScript
-  
+
 #### :shell: Integer sequences
   - [@aureooms/js-integer-sequences](https://github.com/aureooms/js-integer-sequences) : Integer sequences for JavaScript
   - [@aureooms/js-fibonacci](https://github.com/aureooms/js-fibonacci) : Fibonacci numbers for JavaScript
-  
+
 #### :capital_abcd: Matrices
   - [@aureooms/js-matrix](https://github.com/aureooms/js-matrix) : matrices code bricks for JavaScript
   - [@aureooms/js-hypermatrix](https://github.com/aureooms/js-hypermatrix) : hypermatrices code bricks for JavaScript
-  
+
 ### :hocho: Hashing
   - [@aureooms/js-hash](https://github.com/aureooms/js-hash) : hashing algorithms code bricks for JavaScript
-  
+
 ### :dice: Pseudo-random generators
   - [@aureooms/js-random](https://github.com/aureooms/js-random) : randomness code bricks for JavaScript
-  
+
 ### :brain: Hard problems
   - [@aureooms/js-sat](https://github.com/aureooms/js-sat) : Boolean formula satisfiability algorithms for Javascript
   - [@aureooms/js-metaheuristics](https://github.com/aureooms/js-metaheuristics) :
