@@ -15,7 +15,8 @@ This project is just a playground for any algorithm that doesn't fit in any
 of those projects,
 
 ### :signal_strength: Sorting
-  - [@aureooms/js-sort](https://github.com/aureooms/js-sort) : sorting code bricks for JavaScript
+  - [@aureooms/js-sort](https://github.com/aureooms/js-sort):
+    Sorting algorithms for JavaScript
 
 ### :flashlight: Searching
   - [@aureooms/js-search](https://github.com/aureooms/js-search) : item retrieval code bricks for JavaScript
