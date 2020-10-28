@@ -3,7 +3,12 @@
 [![GitHub issues](https://img.shields.io/github/issues/aureooms/js-algorithms.svg?style=flat)](https://github.com/aureooms/js-algorithms/issues)
 ==
 
-<img src="https://cdn.rawgit.com/aureooms/js-algorithms/master/media/sketch.png" width="864">
+<p align="center">
+<a href="https://xkcd.com/399">
+<img src="https://imgs.xkcd.com/comics/travelling_salesman_problem.png" width="600">
+</a><br/>
+© <a href="https://xkcd.com">xkcd.com</a>
+</p>
 
 Playground for algorithms in JavaScript.
 This is a child project of [@aureooms/js-library](https://github.com/aureooms/js-library)
