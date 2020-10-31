@@ -1,5 +1,5 @@
 :rocket: [@aureooms/js-algorithms](https://aureooms.github.io/js-algorithms)
-[![License](https://img.shields.io/github/license/aureooms/js-algorithms.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-algorithms/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/js-algorithms.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-algorithms/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/aureooms/js-algorithms.svg?style=flat)](https://github.com/aureooms/js-algorithms/issues)
 ==
 
