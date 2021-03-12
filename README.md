@@ -42,6 +42,8 @@ of those projects,
 
 ### :globe_with_meridians: Graph theory
   - [@aureooms/js-gn](https://github.com/aureooms/js-gn) : graphs and networks code bricks for JavaScript
+  - [@aureooms/js-topological-sorting](https://github.com/aureooms/js-topological-sorting):
+    Topological sorting algorithms for Javascript
   - [@aureooms/js-mincut](https://github.com/aureooms/js-mincut):
     Minimum cut algorithms for JavaScript
   - [@aureooms/js-maximum-matching](https://github.com/aureooms/js-maximum-matching):
