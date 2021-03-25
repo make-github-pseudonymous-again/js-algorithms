@@ -77,8 +77,8 @@ of those projects,
 ### :hocho: Hashing
   - [@aureooms/js-hash](https://github.com/aureooms/js-hash) : hashing algorithms code bricks for JavaScript
 
-### :game_die: Pseudo-random generators
-  - [@aureooms/js-random](https://github.com/aureooms/js-random) : randomness code bricks for JavaScript
+### :game_die: Randomness
+  - [@aureooms/js-pseudo-random](https://github.com/aureooms/js-pseudo-random) : Pseudorandom number generators for JavaScript
 
 ### :brain: Hard problems
   - :satisfied: [@aureooms/js-sat](https://github.com/aureooms/js-sat) : Boolean formula satisfiability algorithms for Javascript
