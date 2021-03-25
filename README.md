@@ -37,24 +37,30 @@ of those projects,
   - [@aureooms/js-string](https://github.com/aureooms/js-string) : character sequence code bricks for JavaScript
   - [@aureooms/js-nlp](https://github.com/aureooms/js-nlp) : natural language processing code bricks for JavaScript
 
-### :triangular_ruler: Computational geometry
+### :triangular_ruler: Geometry
   - [@aureooms/js-cg](https://github.com/aureooms/js-cg) : computational geometry code bricks for JavaScript
 
-### :globe_with_meridians: Graph theory
+### :globe_with_meridians: Graphs
   - [@aureooms/js-gn](https://github.com/aureooms/js-gn) : graphs and networks code bricks for JavaScript
-  - [@aureooms/js-topological-sorting](https://github.com/aureooms/js-topological-sorting):
+  - :oden: [@aureooms/js-topological-sorting](https://github.com/aureooms/js-topological-sorting):
     Topological sorting algorithms for Javascript
-  - [@aureooms/js-mincut](https://github.com/aureooms/js-mincut):
+  - :haircut_woman: [@aureooms/js-mincut](https://github.com/aureooms/js-mincut):
     Minimum cut algorithms for JavaScript
-  - [@aureooms/js-maximum-matching](https://github.com/aureooms/js-maximum-matching):
+  - :blossom: [@aureooms/js-maximum-matching](https://github.com/aureooms/js-maximum-matching):
     Maximum matching algorithms for JavaScript
 
 ### :1234: Numbers
 
-  - [@aureooms/js-integer](https://github.com/aureooms/js-integer) : multi-precision arithmetic code bricks for JavaScript
-  - [@aureooms/js-rational](https://github.com/aureooms/js-rational) : rational numbers code bricks for JavaScript
-  - [@aureooms/js-complex](https://github.com/aureooms/js-complex) : complex numbers code bricks for JavaScript
-  - [@aureooms/js-polynomial](https://github.com/aureooms/js-polynomial) : sparse and dense polynomials code bricks for JavaScript
+  - :zzz: [@aureooms/js-integer](https://github.com/aureooms/js-integer) :
+    Integers for JavaScript (ℤ)
+  - :woman_farmer: [@aureooms/js-rational-field](https://github.com/aureooms/js-rational-field) : Rational field for JavaScript (ℚ)
+
+#### :symbols: Arithmetic
+  - :elephant: [@aureooms/js-integer-big-endian](https://github.com/aureooms/js-integer-big-endian): Arbitrary precision arithmetic for integers in big-endian order for JavaScript
+  - :pizza: [@aureooms/js-rational](https://github.com/aureooms/js-rational) : rational numbers code bricks for JavaScript
+  - :mermaid: [@aureooms/js-modular-arithmetic](https://github.com/aureooms/js-modular-arithmetic): Modular arithmetic for JavaScript.
+  - :globe_with_meridians: [@aureooms/js-complex](https://github.com/aureooms/js-complex) : complex numbers code bricks for JavaScript
+  - :wavy_dash: [@aureooms/js-polynomial](https://github.com/aureooms/js-polynomial) : sparse and dense polynomials code bricks for JavaScript
 
 #### :two: :three: :five: :seven: Number theory
   - [@aureooms/js-fft](https://github.com/aureooms/js-fft) : Fast Fourier transform algorithms for JavaScript
@@ -75,13 +81,11 @@ of those projects,
   - [@aureooms/js-random](https://github.com/aureooms/js-random) : randomness code bricks for JavaScript
 
 ### :brain: Hard problems
-  - [@aureooms/js-sat](https://github.com/aureooms/js-sat) : Boolean formula satisfiability algorithms for Javascript
-  - [@aureooms/js-metaheuristics](https://github.com/aureooms/js-metaheuristics) :
-    Metaheuristic algorithms for JavaScript
-  - [@aureooms/js-oro](https://github.com/aureooms/js-oro) : operations research and optimization algorithm templates for JavaScript
-  - [@aureooms/js-pfsp-wt](https://github.com/aureooms/js-pfsp-wt) : permutation flow-shop problem (PFSP) with weighted tardiness objective (PFSP-WT) code bricks for JavaScript
-  - [@aureooms/js-knapsack](https://github.com/aureooms/js-knapsack) :
+  - :satisfied: [@aureooms/js-sat](https://github.com/aureooms/js-sat) : Boolean formula satisfiability algorithms for Javascript
+  - :school_satchel: [@aureooms/js-knapsack](https://github.com/aureooms/js-knapsack) :
     Knapsack problem algorithms for JavaScript
+  - :test_tube: [@aureooms/js-metaheuristics](https://github.com/aureooms/js-metaheuristics) :
+    Metaheuristic algorithms for JavaScript
 
 ### :poodle: Miscellaneous
   - [@aureooms/js-equation](https://github.com/aureooms/js-equation) : equations system code bricks for JavaScript
