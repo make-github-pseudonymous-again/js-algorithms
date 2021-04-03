@@ -16,26 +16,30 @@ and
 the twin project of [@aureooms/js-data-structures](https://github.com/aureooms/js-data-structures).
 
 
-## Description
+## :newspaper: Description
 
 This project is just a playground for any algorithm that doesn't fit in any
 of those projects,
 
-### :signal_strength: Sorting
-  - [@aureooms/js-sort](https://github.com/aureooms/js-sort):
-    Sorting algorithms for JavaScript
-
 ### :flashlight: Searching
   - [@aureooms/js-search](https://github.com/aureooms/js-search):
     Searching algorithms for JavaScript
+
+### :cake: Partitioning
   - [@aureooms/js-partition](https://github.com/aureooms/js-partition):
     Partitioning algorithms for JavaScript
   - [@aureooms/js-splitting](https://github.com/aureooms/js-splitting):
     Array splitting algorithms for JavaScript
 
+### :signal_strength: Sorting
+  - [@aureooms/js-sort](https://github.com/aureooms/js-sort):
+    Sorting algorithms for JavaScript
+
 ### :symbols: Strings
-  - [@aureooms/js-string](https://github.com/aureooms/js-string) : character sequence code bricks for JavaScript
-  - [@aureooms/js-nlp](https://github.com/aureooms/js-nlp) : natural language processing code bricks for JavaScript
+  Nothing yet.
+
+### :hocho: Hashing
+  Nothing yet.
 
 ### :triangular_ruler: Geometry
   - [@aureooms/js-cg](https://github.com/aureooms/js-cg) : computational geometry code bricks for JavaScript
@@ -63,21 +67,15 @@ of those projects,
   - :wavy_dash: [@aureooms/js-polynomial](https://github.com/aureooms/js-polynomial) : sparse and dense polynomials code bricks for JavaScript
 
 #### :two: :three: :five: :seven: Number theory
-  - [@aureooms/js-fft](https://github.com/aureooms/js-fft) : Fast Fourier transform algorithms for JavaScript
+  - :butterfly: [@aureooms/js-fft](https://github.com/aureooms/js-fft) : Fast Fourier transform algorithms for JavaScript
   - [@aureooms/js-prime](https://github.com/aureooms/js-prime) : Prime numbers for JavaScript
 
 #### :shell: Integer sequences
   - [@aureooms/js-integer-sequences](https://github.com/aureooms/js-integer-sequences) : Integer sequences for JavaScript
   - [@aureooms/js-fibonacci](https://github.com/aureooms/js-fibonacci) : Fibonacci numbers for JavaScript
 
-#### :capital_abcd: Matrices
-  - [@aureooms/js-matrix](https://github.com/aureooms/js-matrix) : matrices code bricks for JavaScript
-  - [@aureooms/js-hypermatrix](https://github.com/aureooms/js-hypermatrix) : hypermatrices code bricks for JavaScript
-
-### :hocho: Hashing
-  - [@aureooms/js-hash](https://github.com/aureooms/js-hash) : hashing algorithms code bricks for JavaScript
-
 ### :game_die: Randomness
+  - [@aureooms/js-random](https://github.com/aureooms/js-random): Randomness algorithms for JavaScript
   - [@aureooms/js-pseudo-random](https://github.com/aureooms/js-pseudo-random) : Pseudorandom number generators for JavaScript
 
 ### :brain: Hard problems
@@ -87,9 +85,12 @@ of those projects,
   - :test_tube: [@aureooms/js-metaheuristics](https://github.com/aureooms/js-metaheuristics) :
     Metaheuristic algorithms for JavaScript
 
-### :poodle: Miscellaneous
+### :left_right_arrow: Sytems of equalities and inequalities
   - [@aureooms/js-equation](https://github.com/aureooms/js-equation) : equations system code bricks for JavaScript
-  - [@aureooms/js-permutation](https://github.com/aureooms/js-permutation) : permutations code bricks for JavaScript
+
+### :broom: Combinatorics
+  - :seat: [@aureooms/js-permutation](https://github.com/aureooms/js-permutation): Permutations library for JavaScript
+  - :bento: [@aureooms/js-set-partition](https://github.com/aureooms/js-set-partition): Set partition algorithms for Javascript
 
 
 Those packages aim to provide *code bricks* that are as generic as possible.
