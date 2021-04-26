@@ -1,4 +1,4 @@
-:rocket: [@aureooms/js-algorithms](https://github.com/make-github-pseudonymous-again/js-algorithms#readme)
+:rocket: [Algorithms](https://github.com/make-github-pseudonymous-again/js-algorithms#readme)
 [![License](https://img.shields.io/github/license/make-github-pseudonymous-again/js-algorithms.svg?style=flat)](https://raw.githubusercontent.com/make-github-pseudonymous-again/js-algorithms/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/make-github-pseudonymous-again/js-algorithms.svg?style=flat)](https://github.com/make-github-pseudonymous-again/js-algorithms/issues)
 ==
