@@ -5,7 +5,7 @@
 	"main": "js/dist/algorithms.js",
 	"version": "3.0.7",
 	"repository": {
-		"url": "https://github.com/aureooms/js-algorithms.git",
+		"url": "https://github.com/make-github-pseudonymous-again/js-algorithms.git",
 		"type": "git"
 	},
 	"keywords": [
@@ -37,7 +37,7 @@
 		"aureooms-node-package": "^6.0.1"
 	},
 	"bugs": {
-		"url": "https://github.com/aureooms/js-algorithms/issues"
+		"url": "https://github.com/make-github-pseudonymous-again/js-algorithms/issues"
 	},
 	"dependencies": {},
 	"license": "AGPL-3.0",
