@@ -1,7 +1,7 @@
 {
 	"name": "@aureooms/js-algorithms",
 	"description": "Playground for algorithms in JavaScript",
-	"homepage": "https://aureooms.github.io/js-algorithms",
+	"homepage": "https://make-github-pseudonymous-again.github.io/js-algorithms",
 	"main": "js/dist/algorithms.js",
 	"version": "3.0.7",
 	"repository": {
