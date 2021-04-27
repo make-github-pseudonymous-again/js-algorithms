@@ -11,9 +11,9 @@
 </p>
 
 Playground for algorithms in JavaScript.
-This is a child project of [@aureooms/js-library](https://github.com/make-github-pseudonymous-again/js-library)
+This is a child project of [@make-github-pseudonymous-again/js-library](https://github.com/make-github-pseudonymous-again/js-library)
 and
-the twin project of [@aureooms/js-data-structures](https://github.com/make-github-pseudonymous-again/js-data-structures).
+the twin project of [@make-github-pseudonymous-again/js-data-structures](https://github.com/make-github-pseudonymous-again/js-data-structures).
 
 
 ## :newspaper: Description
@@ -45,16 +45,16 @@ of those projects,
 #### :balance_scale: Comparison sorting
 
   - :notebook_with_decorative_cover: [aureooms/js-in-situ-sort-spec](https://github.com/make-github-pseudonymous-again/js-in-situ-sort-spec): in place sorting for JavaScript
-    - :leaves: [aureooms/js-heapsort](https://github.com/make-github-pseudonymous-again/js-heapsort): heapsort for JavaScript
-    - :rabbit2: [aureooms/js-quicksort](https://github.com/make-github-pseudonymous-again/js-quicksort): quicksort for JavaScript
-    - :rewind: [aureooms/js-insertion-sort](https://github.com/make-github-pseudonymous-again/js-insertion-sort): Insertion sorting algorithms for JavaScript
-    - :person_fencing: [aureooms/js-merge-insertion-sort](https://github.com/make-github-pseudonymous-again/js-merge-insertion-sort): Ford-Johnson algorithm for JavaScript
-  - :dragon: [aureooms/js-mergesort](https://github.com/make-github-pseudonymous-again/js-mergesort): mergesort for JavaScript
-  - :musical_score: [aureooms/js-odd-even-mergesort](https://github.com/make-github-pseudonymous-again/js-odd-even-mergesort): Batcher's odd-even mergesort for JavaScript
+    - :leaves: [@sorting/heap-sort](https://github.com/data-structures-and-algorithms/heap-sort): Heapsort for JavaScript
+    - :rabbit2: [@sorting/quick-sort](https://github.com/data-structures-and-algorithms/quick-sort): Quicksort for JavaScript
+    - :rewind: [@sorting/insertion-sort](https://github.com/data-structures-and-algorithms/insertion-sort): Insertion sorting algorithms for JavaScript
+    - :person_fencing: [@sorting/merge-insertion-sort](https://github.com/data-structures-and-algorithms/merge-insertion-sort): Ford-Johnson algorithm for JavaScript
+  - :dragon: [@sorting/merge-sort](https://github.com/data-structures-and-algorithms/merge-sort): Mergesort for JavaScript
+  - :musical_score: [@sorting/odd-even-merge-sort](https://github.com/data-structures-and-algorithms/odd-even-merge-sort): Batcher's odd-even mergesort for JavaScript
 
 #### :zzz: Integer sorting
 
-  - :oden: [aureooms/js-radix-sort](https://github.com/make-github-pseudonymous-again/js-radix-sort): Radix sorting algorithms for JavaScript
+  - :oden: [@sorting/radix-sort](https://github.com/data-structures-and-algorithms/radix-sort): Radix sorting algorithms for JavaScript
   - [aureooms/js-countingsort](https://github.com/make-github-pseudonymous-again/js-countingsort): countingsort for JavaScript
   - [aureooms/js-bucketsort](https://github.com/make-github-pseudonymous-again/js-bucketsort): bucketsort for JavaScript
 
@@ -69,11 +69,11 @@ of those projects,
 
 ### :globe_with_meridians: Graphs
   - [@aureooms/js-gn](https://github.com/make-github-pseudonymous-again/js-gn) : graphs and networks code bricks for JavaScript
-  - :oden: [@aureooms/js-topological-sorting](https://github.com/make-github-pseudonymous-again/js-topological-sorting):
+  - :oden: [@graph-algorithm/topological-sorting](https://github.com/graph-algorithm/topological-sorting):
     Topological sorting algorithms for Javascript
-  - :haircut_woman: [@aureooms/js-mincut](https://github.com/make-github-pseudonymous-again/js-mincut):
+  - :haircut_woman: [@graph-algorithm/minimum-cut](https://github.com/graph-algorithm/minimum-cut):
     Minimum cut algorithms for JavaScript
-  - :blossom: [@aureooms/js-maximum-matching](https://github.com/make-github-pseudonymous-again/js-maximum-matching):
+  - :blossom: [@graph-algorithm/maximum-matching](https://github.com/graph-algorithm/maximum-matching):
     Maximum matching algorithms for JavaScript
 
 ### :1234: Numbers
