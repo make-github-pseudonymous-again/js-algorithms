@@ -11,9 +11,9 @@
 </p>
 
 Playground for algorithms in JavaScript.
-This is a child project of [@make-github-pseudonymous-again/js-library](https://github.com/make-github-pseudonymous-again/js-library)
+This is a child project of [js-library](https://github.com/make-github-pseudonymous-again/js-library)
 and
-the twin project of [@make-github-pseudonymous-again/js-data-structures](https://github.com/make-github-pseudonymous-again/js-data-structures).
+the twin project of [js-data-structures](https://github.com/make-github-pseudonymous-again/js-data-structures).
 
 
 ## :newspaper: Description
@@ -44,17 +44,17 @@ of those projects,
 
 #### :balance_scale: Comparison sorting
 
-  - :notebook_with_decorative_cover: [aureooms/js-in-situ-sort-spec](https://github.com/make-github-pseudonymous-again/js-in-situ-sort-spec): in place sorting for JavaScript
-    - :leaves: [@sorting/heap-sort](https://github.com/data-structures-and-algorithms/heap-sort): Heapsort for JavaScript
-    - :rabbit2: [@sorting/quick-sort](https://github.com/data-structures-and-algorithms/quick-sort): Quicksort for JavaScript
-    - :rewind: [@sorting/insertion-sort](https://github.com/data-structures-and-algorithms/insertion-sort): Insertion sorting algorithms for JavaScript
-    - :person_fencing: [@sorting/merge-insertion-sort](https://github.com/data-structures-and-algorithms/merge-insertion-sort): Ford-Johnson algorithm for JavaScript
-  - :dragon: [@sorting/merge-sort](https://github.com/data-structures-and-algorithms/merge-sort): Mergesort for JavaScript
-  - :musical_score: [@sorting/odd-even-merge-sort](https://github.com/data-structures-and-algorithms/odd-even-merge-sort): Batcher's odd-even mergesort for JavaScript
+  - :notebook_with_decorative_cover: [@comparison-sorting/specification](https://github.com/comparison-sorting/specification): Comparison sorting specification for JavaScript
+  - :leaves: [@comparison-sorting/heap-sort](https://github.com/comparison-sorting/heap-sort): Heapsort for JavaScript
+  - :rabbit2: [@comparison-sorting/quick-sort](https://github.com/comparison-sorting/quick-sort): Quicksort for JavaScript
+  - :rewind: [@comparison-sorting/insertion-sort](https://github.com/comparison-sorting/insertion-sort): Insertion sorting algorithms for JavaScript
+  - :person_fencing: [@comparison-sorting/merge-insertion-sort](https://github.com/comparison-sorting/merge-insertion-sort): Ford-Johnson algorithm for JavaScript
+  - :dragon: [@comparison-sorting/merge-sort](https://github.com/comparison-sorting/merge-sort): Mergesort for JavaScript
+  - :musical_score: [@comparison-sorting/odd-even-merge-sort](https://github.com/comparison-sorting/odd-even-merge-sort): Batcher's odd-even mergesort for JavaScript
 
 #### :zzz: Integer sorting
 
-  - :oden: [@sorting/radix-sort](https://github.com/data-structures-and-algorithms/radix-sort): Radix sorting algorithms for JavaScript
+  - :oden: [@integer-sorting/radix-sort](https://github.com/integer-sorting/radix-sort): Radix sorting algorithms for JavaScript
   - [aureooms/js-countingsort](https://github.com/make-github-pseudonymous-again/js-countingsort): countingsort for JavaScript
   - [aureooms/js-bucketsort](https://github.com/make-github-pseudonymous-again/js-bucketsort): bucketsort for JavaScript
 
@@ -98,8 +98,8 @@ of those projects,
   - [@aureooms/js-fibonacci](https://github.com/make-github-pseudonymous-again/js-fibonacci) : Fibonacci numbers for JavaScript
 
 ### :game_die: Randomness
-  - [@aureooms/js-random](https://github.com/make-github-pseudonymous-again/js-random): Randomness algorithms for JavaScript
-  - [@aureooms/js-pseudo-random](https://github.com/make-github-pseudonymous-again/js-pseudo-random) : Pseudorandom number generators for JavaScript
+  - [@randomized/random](https://github.com/randomized-algorithm/random): Randomness algorithms for JavaScript
+  - [@entropy-source/pseudo-random](https://github.com/entropy-source/pseudo-random) : Pseudorandom number generators for JavaScript
 
 ### :brain: Hard problems
   - :satisfied: [@aureooms/js-sat](https://github.com/make-github-pseudonymous-again/js-sat) : Boolean formula satisfiability algorithms for Javascript
@@ -112,8 +112,12 @@ of those projects,
   - [@aureooms/js-equation](https://github.com/make-github-pseudonymous-again/js-equation) : equations system code bricks for JavaScript
 
 ### :broom: Combinatorics
-  - :seat: [@aureooms/js-permutation](https://github.com/make-github-pseudonymous-again/js-permutation): Permutations library for JavaScript
-  - :bento: [@aureooms/js-set-partition](https://github.com/make-github-pseudonymous-again/js-set-partition): Set partition algorithms for Javascript
+  - :exclamation: [@combinatorics/factorial](https://github.com/computational-combinatorics/factorial): Factorial function for JavaScript
+  - :seat: [@combinatorics/permutation](https://github.com/computational-combinatorics/permutation): Permutations library for JavaScript
+  - :zebra: [@combinatorics/n-permutations](https://github.com/computational-combinatorics/n-permutations): Set n-permutations for JavaScript
+  - :hippopotamus: [@combinatorics/n-combinations](https://github.com/computational-combinatorics/n-combinations): Set n-combinations for JavaScript
+  - :rhinoceros: [@combinatorics/n-multi-combinations](https://github.com/computational-combinatorics/n-multi-combinations): Set n-multicombinations for JavaScript
+  - :bento: [@combinatorics/set-partition](https://github.com/computational-combinatorics/set-partition): Set partition algorithms for Javascript
 
 
 Those packages aim to provide *code bricks* that are as generic as possible.
