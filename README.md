@@ -116,7 +116,7 @@ of those projects,
   - :seat: [@combinatorics/permutation](https://github.com/computational-combinatorics/permutation): Permutations library for JavaScript
   - :zebra: [@combinatorics/n-permutations](https://github.com/computational-combinatorics/n-permutations): Set n-permutations for JavaScript
   - :hippopotamus: [@combinatorics/n-combinations](https://github.com/computational-combinatorics/n-combinations): Set n-combinations for JavaScript
-  - :rhinoceros: [@combinatorics/n-multi-combinations](https://github.com/computational-combinatorics/n-multi-combinations): Set n-multicombinations for JavaScript
+  - :rhinoceros: [@combinatorics/n-multicombinations](https://github.com/computational-combinatorics/n-multicombinations): Set n-multicombinations for JavaScript
   - :bento: [@combinatorics/set-partition](https://github.com/computational-combinatorics/set-partition): Set partition algorithms for Javascript
 
 
